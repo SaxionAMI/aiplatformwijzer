@@ -1,0 +1,95 @@
+// app global css in SCSS form
+body {
+  background-color: rgb(252, 252, 252);
+}
+
+.card {
+  border-radius: 50px;
+}
+
+.questioncard {
+  border-radius: 0px 50px 50px 50px;
+}
+
+.tooltip {
+  font-size: medium;
+  position: absolute;
+  z-index: 100;
+  border-radius: 50px;
+}
+
+.circle {
+  transition: transform 0.3s ease-in-out;
+}
+
+.enlarged {
+  transform: scale(1.2);
+}
+
+.hide_tool {
+  opacity: 0;
+}
+
+.show_tool {
+  animation: scaleUpAndDown 1s ease forwards;
+}
+
+@keyframes scaleUpAndDown {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.expand-enter-active,
+.expand-leave-active {
+  transition: height 0.5s;
+}
+.expand-enter,
+.expand-leave-to {
+  height: 0;
+  overflow: hidden;
+}
+.grow-box {
+  overflow: hidden;
+}
+
+/* Define animation for entering elements */
+.tool-list-enter-active {
+  animation: slideIn 0.5s ease;
+}
+
+/* Define animation for leaving elements */
+.tool-list-leave-active {
+  animation: slideOut 0.5s ease;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50px); /* Move element upward */
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0); /* Move element back to its original position */
+  }
+}
+
+@keyframes slideOut {
+  from {
+    opacity: 1;
+    transform: translateX(0); /* No movement for start */
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-50px); /* Move element upward */
+  }
+}
