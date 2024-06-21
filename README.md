@@ -1,6 +1,14 @@
-# Dataplatform wijzer (dataplatform-wijzer)
+# AI-platformwijzer
 
-A Quasar Project
+Op zoek naar dé datapipeline tool voor uw organisatie?
+- De dataplatformwijzer weet raad.
+- Doorloop een aantal vragen.
+- Een gedetailleerde aanbeveling wordt gegenereerd.
+- Rekening houdend met platformen als Amazon Sagemaker, Databrikcs, Microsoft Azure Machine learning en andere relevante platforms.
+
+
+# Zelf installeren?
+De AI-platformwijzer maakt gebruik van Quasar. Volg de stappen op de website om de website lokaal te draaien: https://quasar.dev/start/quick-start/
 
 ## Install the dependencies
 ```bash
@@ -29,12 +37,6 @@ yarn format
 # or
 npm run format
 ```
-
-https://medium.com/@jwdobken/develop-quasar-applications-with-docker-a19c38d4a6ac
-
-
-
-
 
 ### Build the app for production
 ```bash
