@@ -92,7 +92,7 @@ export default defineComponent({
     const questions = answerStore.questions;
     // const answers = JSON.parse(JSON.stringify(answerStore.answers)); //ref([]);
     const expanded = ref(true);
-    const currentQuestion = ref(answerStore.answers.length);
+    const currentQuestion = ref(answerStore.answers.length===0?0: answerStore.answers.length-1);
     const isMobile = computed(() => q.platform.is.mobile);
     const route = useRoute();
 
