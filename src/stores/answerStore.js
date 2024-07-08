@@ -11,5 +11,10 @@ export const useAnswerStore = defineStore("answer", {
   persist: true,
   getters: {},
 
-  actions: {},
+  actions: {
+    resetQuiz(){
+      this.selectedAnswers = []
+      this.answers = []
+    }
+  },
 });

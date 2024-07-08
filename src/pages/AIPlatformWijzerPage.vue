@@ -83,65 +83,14 @@
             <q-card-section v-if="answerStore.results.length === 0">
               Nog geen resultaten!</q-card-section
             >
-            <q-card-section v-else class="row">
+            <q-card-section v-else class="row q-col-gutter-sm">
               <div
                 :key="result.id"
-                class="col-6"
+                class="col-md-6 col-sm-12 col-xs-12"
                 v-for="result in answerStore.results"
               >
                 <div class="flex justify-center">
-                  <q-card class="card">
-                    <div>
-                      <q-btn
-                        style="position: absolute; z-index: 100"
-                        push
-                        @click="removeResult(result.id)"
-                        color="negative"
-                        icon="clear"
-                        round
-                        size="sm"
-                      ></q-btn>
-                      <q-btn
-                        round
-                        style="position: absolute; z-index: 100; right: 0"
-                        no-caps
-                        @click="goToResult(result.id)"
-                        push
-                        color="primary"
-                        icon="arrow_right"
-                      />
-                    </div>
-                    <div class="text-center full-width q-mt-sm">
-                      <div class="text-weight-bolder">
-                        {{
-                          new Date(result.timestamp).toLocaleDateString(
-                            "en-CA",
-                            {
-                              year: "numeric",
-                              month: "2-digit",
-                              day: "2-digit",
-                            }
-                          )
-                        }}
-                      </div>
-                      <span style="font-size: x-small"> {{ result.id }}</span>
-                      <q-separator inset dense />
-                    </div>
-                    <q-card-section class="flex" :disable="true">
-                      <div
-                        :key="tool.id"
-                        v-for="(tool, index) in result.top_3"
-                        class="text-center"
-                      >
-                        <tool-question-item
-                          :tool="tool"
-                          no-hover
-                          :size="'70px'"
-                        />
-                        <span class="text-weight-bolder">{{ index + 1 }}</span>
-                      </div>
-                    </q-card-section>
-                  </q-card>
+                  <result-card :result="result"/>
                 </div>
               </div>
             </q-card-section>
@@ -178,12 +127,15 @@ import { defineComponent } from "vue";
 import { useRouter, useRoute } from "vue-router";
 import { useAnswerStore } from "../stores/answerStore";
 import ToolQuestionItem from "src/components/ToolQuestionItem.vue";
+import ResultCard from "components/ResultCard.vue";
 export default defineComponent({
   name: "AIPlatformWijzerPage",
-  components: { ToolQuestionItem },
+  components: {ResultCard},
   setup() {
     const router = useRouter();
     const answerStore = useAnswerStore();
+    // Reset answers/ results when coming on this page
+    answerStore.resetQuiz()
     const getImgUrl = (link) => {
       return new URL(`../assets/small/${link}`, import.meta.url).href;
     };
@@ -192,22 +144,12 @@ export default defineComponent({
       window.open(link, "_blank");
     };
 
-    const removeResult = (id) => {
-      answerStore.results = answerStore.results.filter(
-        (item) => item.id !== id
-      );
-    };
 
-    const goToResult = (id) => {
-      router.push({ name: "result", query: { result_id: id } });
-    };
 
     return {
       router,
       getImgUrl,
       answerStore,
-      goToResult,
-      removeResult,
       openLink,
     };
   },
