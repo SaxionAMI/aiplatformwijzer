@@ -1,5 +1,5 @@
 <template>
-  <q-page class="q-ma-sm flex-center flex">
+  <q-page class="q-ma-sm flex justify-center">
     <q-header>
       <!-- Readding the toolbar here is an ugly hack but whatever -->
       <q-toolbar>

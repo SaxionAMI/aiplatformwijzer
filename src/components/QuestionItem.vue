@@ -1,12 +1,12 @@
 <template>
-  <div class="row items-center justify-center">
-    <div class="col-12 flex-center flex">
+  <div class="row justify-center self-start">
+    <div class="col-12 self-start text-center ">
       <!-- <q-chip color="primary" text-color="white">{{
         props.question_number
       }}</q-chip> -->
-      <p class="text-h5 text-center text-weight-bolder">
+      <span class="text-h5 text-center text-weight-bolder">
         {{ props.question.question_text }}
-      </p>
+      </span>
       <q-btn
         icon="info"
         color="accent"
@@ -37,10 +37,10 @@
     <div v-if="fullscreen">
       <b>Vraag uitleg:</b> {{ props.question.explanation_text }}
     </div>
-    <div class="col-md-6 col-sm-10 col-xs-12">
+    <div class=" col-md-6 col-sm-10 col-xs-12 self-start">
       <q-card class="row q-pa-lg-lg q-pa-md-md q-pa-xs-xs q-pa-sm-sm card">
         <q-card-section
-          class="col-12"
+          class="col-6"
           :key="answer.id"
           v-for="answer in props.question.answers"
         >
@@ -76,20 +76,7 @@
             </div>
           </div>
         </q-card-section>
-        <div class="col-6 q-pl-lg q-pb-md">
-          <!-- <q-btn
-            no-caps
-            :label="!q.screen.lt.sm ? 'Meer info per tool' : 'Meer info'"
-            rounded
-            :icon-right="
-              !expanded ? 'keyboard_arrow_down' : 'keyboard_arrow_up'
-            "
-            @click.ctrl="expandFull"
-            @click="expanded = !expanded"
-            flat
-          /> -->
-        </div>
-        <div class="text-right col-6 q-pr-lg q-pb-md">
+        <div class="text-right col-12 q-pr-lg q-pb-md">
           <b>
             {{
               props.question.type === "single"
