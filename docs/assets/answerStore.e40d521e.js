@@ -1,0 +1,1 @@
+import{d as s}from"./index.03b738b6.js";const t=s("answer",{state:()=>({results:[],selectedAnswers:[],answers:[],questions:[],tools:[]}),persist:!0,getters:{},actions:{resetQuiz(){this.selectedAnswers=[],this.answers=[]}}});export{t as u};
