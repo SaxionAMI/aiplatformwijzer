@@ -61,7 +61,7 @@
   </q-card>
 
   <div v-if="props.fullscreen && props.answer.explanation_text">
-    <b>Antwoord uitleg:</b> {{ props.answer.explanation_text }}
+    <b>{{$t('answer.explanation')}}:</b> {{ props.answer.explanation_text }}
   </div>
   <div></div>
 </template>
@@ -70,6 +70,7 @@
 import { defineComponent, ref, computed } from "vue";
 import { useAnswerStore } from "../stores/answerStore";
 import { useQuasar } from "quasar";
+import { useI18n } from 'vue-i18n'
 export default defineComponent({
   name: "AnswerItem",
   props: {
@@ -83,6 +84,7 @@ export default defineComponent({
   emits: ["selectAnswer", "unselectAnswer"],
   setup(props, { emit }) {
     const q = useQuasar();
+    const { t } = useI18n()
     const answerStore = useAnswerStore();
     const isMobile = computed(() => q.platform.is.mobile);
     const tooltipVisible = ref(false);
@@ -106,6 +108,7 @@ export default defineComponent({
     };
     return {
       selectAnswer,
+      t,
       unselectAnswer,
       showTooltip,
       hideTooltip,

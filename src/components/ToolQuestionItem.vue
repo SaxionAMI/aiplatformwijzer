@@ -31,9 +31,8 @@
             </div>
 
             <div v-if="currentClashes">
-              De volgende
-              <span class="text-negative text-weight-bold">clashes</span> zijn
-              gevonden:
+              <span v-html="$t('tool.clashes_found')"/>
+
               <ul>
                 <li :key="index" v-for="(clash, index) in currentClashes">
                   <div v-html="clash.explanation"></div>
@@ -41,9 +40,8 @@
               </ul>
             </div>
             <div v-if="currentMatches">
-              De volgende
-              <span class="text-positive text-weight-bold">matches</span> zijn
-              gevonden:
+              <span v-html="$t('tool.matches_found')"/>
+
               <ul>
                 <li :key="index" v-for="(match, index) in currentMatches">
                   {{ match.explanation }}
@@ -51,10 +49,9 @@
               </ul>
             </div>
             <div v-if="!currentMatches && !currentClashes">
-              <b><i>Selecteer</i></b> een vraag om een beschrijving per tool te
-              kunnen zien
+              <span v-html="$t('tool.select_info')"/>
             </div>
-            <b> Tusssenstand</b>
+            <b> {$t('tool.matches_found'){}}</b>
             <div>
               Clashes:
               {{ props.tool.numberOfClaches ? props.tool.numberOfClaches : 0 }}
@@ -74,6 +71,7 @@
 <script>
 import { defineComponent, ref, computed, defineExpose } from "vue";
 import { useAnswerStore } from "../stores/answerStore";
+import { useI18n } from 'vue-i18n'
 export default defineComponent({
   name: "ToolQuestionItem",
   props: {
@@ -96,6 +94,7 @@ export default defineComponent({
   },
   emits: ["openDialog"],
   setup(props, { emit }) {
+    const { t } = useI18n()
     const answerStore = useAnswerStore();
     const isHovered = ref(false);
 
@@ -132,6 +131,7 @@ export default defineComponent({
     return {
       props,
       goTo,
+      t,
       emit,
       currentMatches,
       currentClashes,

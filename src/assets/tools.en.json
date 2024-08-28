@@ -1,0 +1,1995 @@
+{
+  "tools": [
+    {
+      "id": "963aaa51-8a46-4d213e-9808-d25ea810560c",
+      "title": "Databricks",
+      "description": "Databricks is a powerful and integrated analytics platform built on top of Apache Spark. It provides an easy-to-use interface for performing data engineering, data science, and machine learning tasks. Databricks makes it easy to process data, analyze it and gain insights through collaboration, advanced visualizations and the ability to use different programming languages ​​such as Python, Scala, SQL and R. The platform is often used for real-time data analysis, building of data pipelines and accelerating the development of machine learning models.",
+      "link": "https://www.databricks.com/",
+      "img_link": "databricks_logo.png",
+      "good_compatible": [
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "bcd62443-7827-44cb-88bb-b9fd5a3651ae",
+          "explanation": "Databricks is good at visualizing data due to its seamless integration with popular data analysis tools such as Apache Spark and SQL. The platform allows users to create powerful graphs and visualizations using tools such as Matplotlib, Seaborn and Databricks' proprietary visualization library. With the support of various programming languages ​​such as Python, Scala and R, users can perform complex analyzes and easily visualize them for better understanding and interpretation of data."
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "e3e1cc59-5923-483a-94e7-986c96b757e0",
+          "explanation": "\"Databricks is hosted on cloud platforms such as Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP)"
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "6b3b3542-9081-48c6-8e45-2e0556b25f67",
+          "explanation": "\"Databricks is hosted on cloud platforms such as Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP)"
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "2ae2f467-4e22-47ba-9e0f-0d46a62c4f46",
+          "explanation": "\"Databricks is hosted on cloud platforms such as Amazon Web Services (AWS), Microsoft Azure, and Google Cloud Platform (GCP)"
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "8be91de1-04e3-4415-91f9-9f31ce1a6ab8",
+          "explanation": "Databricks excels in ETL because of its scalability with Apache Spark, integrated environment for various data sources, various data transformation capabilities, automation and support for both batch and streaming processing of data."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "c45c0a87-dfbc-428f-93a2-825a0ab9ca51",
+          "explanation": "Databricks excels at MLOps because of its integrated platform, scalability, advanced machine learning capabilities, automation and orchestration capabilities, and advanced monitoring and management capabilities."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "963aaa51-8a46-4d4e-9808-d25ea810560c",
+          "explanation": "If you are already using Databricks, we recommend that you use the functionalities that have already been implemented in Databricks. Databricks is a complete package and offers out-of-the-box a wide range of functionality regarding MLops, DataOps, visualization and orchestration."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "ee245bf1-0447-4460-beb0-26ce8987a59a",
+          "explanation": "Databricks can be hosted on AWS. You can continue to use all the features that AWS offers and easily add Databricks to your current workflow. Installation and use is easy see: <a href=\"https:// www.databricks.com/product/aws\" target=\"_blank\">link</a>. "
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "03c4d074-2773-41cd-962a-892d13882ef4",
+          "explanation": "Databricks can be hosted on AZURE. You can continue to use all the features that Azure offers and easily add Databricks to your current workflow. Installation and use is easy see:\n <a href=\"https: //www.databricks.com/product/azure\" target=\"_blank\">link</a>. "
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "b33b4738-05e9-42a9-8680-78a15ff65b0a",
+          "explanation": "Databricks can be hosted on GCP. You can continue to use all the features that GCP offers and easily add Databricks to your current workflow. Installation and use is easy see: <a href=\"https:// www.databricks.com/product/google-cloud\" target=\"_blank\">link</a>. \n"
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "77900f70-1a5b-4d1a-a7e9-561e80027e28",
+          "explanation": "Databricks excels in DataOps because of its integrated platform, which combines scalability, automation, collaboration and advanced data engineering capabilities, allowing organizations to more effectively manage, transform and analyze data."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "e9000130-1d1a-4898-a1ce-ef434c8ec110",
+          "explanation": "Databricks excels in business intelligence through its integrated platform that enables advanced data analysis, visualization and reporting, while also providing scalability, speed and collaboration, helping organizations generate faster insights and make better decisions based on their dates."
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "4a41cfb5-c413-48d1-bab7-7b2e320e09e3",
+          "explanation": "Databricks is not open source; it is a closed source commercial platform."
+        },
+        {
+          "question_id": "8aadcd11-ca15-4c09-b2d2-3159a318118b",
+          "answer_id": "735d232e-e287-4732-9728-d00c324343be",
+          "explanation": "Databricks has the ability to orchestrate tasks via Airflow. This means you need less new knowledge to apply Databricks."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "6fc847a4-d0b1-4bd4-aa5d-5119e0df65e3",
+          "explanation": "The MLflow variant of Databricks gives you an intuitive overview of your experiments, and thanks to the additions of Databricks you have many additional functionalities that are not available in the standard open source variant."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "83b528f4-3ea9-427e-9ce5-772685655d43",
+          "explanation": "Thanks to Lakehouse monitoring it is now possible to detect model drift. For more information, see: <a href=\"https://docs.databricks.com/en/lakehouse-monitoring/index.html\" target=\"_blank\">this link</a>."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "7a8606ca-dac3-497d-ae7e-73b6643aae4e",
+          "explanation": "The MLflow variant of Databricks has been enriched with additional functionalities specifically designed for LLMOps. See <a href=\"https://www.databricks.com/glossary/llmops\" target=\"_blank \">this link</a> for more details."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3a85d010-e8c4-4a29-a3dd-330376caf110",
+          "explanation": "The powerful combination of Apache Airflow and MLflow lets you effortlessly orchestrate pipelines, creating a seamless and integrated workflow for managing machine learning experiments and jobs."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3bb6617b-88f2-48a3-b235-381e8edfd3d9",
+          "explanation": "Thanks to Databricks AutoML, machine learning models can be easily trained and selected with just the touch of a button. For more information, see: <a href=\"https://www.databricks.com/product/automl \" target=\"_blank\">this link</a>."
+        },
+        {
+          "question_id": "563dcdf3-985d-4e1b-b5c7-b7b24d2330a2",
+          "answer_id": "26449ee9-91a7-412e-ae0f-e43aaa744659",
+          "explanation": "Databricks' robust Spark integration and ETL capabilities enable seamless real-time processing and display of data."
+        },
+        {
+          "question_id": "563dcdf3-985d-4e1b-b5c7-b7b24d2330a2",
+          "answer_id": "76bf60df-0e36-4013-aa63-c11fd5a38eaa",
+          "explanation": "Orchestration makes it easy to set up and run batch jobs, making it effortless to retrain and publish a machine learning model, for example."
+        },
+        {
+          "question_id": "563dcdf3-985d-4e1b-b5c7-b7b24d2330a2",
+          "answer_id": "1241c1e4-b038-42f1-be01-06f45bbb2179",
+          "explanation": "Databricks uses a modified variant of MLflow with numerous additional functionalities. This makes Databricks an ideal data platform for a complete end-to-end data workflow."
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "37aff572-f1a8-4401-ac52-51183844c06c",
+          "explanation": "Databricks is designed to run on cloud infrastructure due to the complex requirements of scalability, computing power and storage required to process and analyze large amounts of data. It leverages the cloud to provide flexibility, resources and easy access to provide different data sources, which means it cannot be run on-premise."
+        },
+        {
+          "question_id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+          "answer_id": "80d91bdb-7cd4-4ab7-a8b3-7cb7d4f01332",
+          "explanation": "Keep in mind that large data platforms require a significant amount of time and knowledge to set up. A simpler solution is possible but often costs functionality"
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "f96feb5c-7f24-436e-aa35-70a170bccfd9",
+          "explanation": "Annotating data via Databricks is not directly possible. For data annotation it is recommended to use external tools, such as Labelbox. Consult <a href=\"https://docs.databricks.com/ en/machine-learning/reference-solutions/data-labeling.html#:~:text=Databricks%20does%20not%20directly%20support,Partner%20Connect%20documentation%20for%20Labelbox\" target=\"_blank\"> this link</a> for more details."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "6c468e8d-a48b-4e5b-ba9c-9042d82d6ff9",
+          "explanation": "Annotating data via Databricks is not directly possible. For data annotation it is recommended to use external tools, such as Labelbox. Consult <a href=\"https://docs.databricks.com/ en/machine-learning/reference-solutions/data-labeling.html#:~:text=Databricks%20does%20not%20directly%20support,Partner%20Connect%20documentation%20for%20Labelbox\" target=\"_blank\"> this link</a> for more details."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "8b084d94-059d-4443-ae7d-d8f46d2e3e52",
+          "explanation": "If your company is not yet active on a cloud platform, Databricks is a good choice to consider. It is a large and complete platform and offers functionalities for MLOps but also for processing large-scale data."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c21f0ead-9e20-4823-8875-d61a9d7542dd",
+          "explanation": "Thanks to Databricks' data lake called delta lake, it is possible to detect data drift. For more information, see: <a href=\"https://www.databricks.com/blog/2019/09/ 18/productionizing-machine-learning-from-deployment-to-drift-detection.html\" target=\"_blank\">this link</a>."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3e6a8487-1793-4062-aee3-271c6e435818",
+          "explanation": "Publishing and deploying machine learning models is possible using the MLflow model registry."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "3e29d8d1-aef4-45a9-9728-606880731d87",
+          "explanation": "Databricks offers advanced collaboration features such as real-time collaboration in notebooks, shared libraries and version control, allowing teams to efficiently collaborate on analytics and machine learning models. Role-Based Access Control (RBAC) is enabled in Databricks, which allows user permissions are managed based on roles and responsibilities. Databricks is suitable for teams of 5 or more people, taking full advantage of the collaboration features, but can also be used by individual users for smaller projects."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "7ca2debe-b701-4e89-958d-6d3cff385de0",
+          "explanation": "Databricks offers advanced collaboration features such as real-time collaboration in notebooks, shared libraries and version control, allowing teams to efficiently collaborate on analytics and machine learning models. Role-Based Access Control (RBAC) is enabled in Databricks, which allows user permissions are managed based on roles and responsibilities. Databricks is suitable for teams of 5 or more people, taking full advantage of the collaboration features, but can also be used by individual users for smaller projects."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "6687720c-ef4d-4663-8e79-a98694bb10d9",
+          "explanation": "Databricks offers advanced collaboration features such as real-time collaboration in notebooks, shared libraries and version control, allowing teams to efficiently collaborate on analytics and machine learning models. Role-Based Access Control (RBAC) is enabled in Databricks, which allows user permissions are managed based on roles and responsibilities. Databricks is suitable for teams of 5 or more people, taking full advantage of the collaboration features, but can also be used by individual users for smaller projects."
+        }
+      ],
+      "bad_compatible": [
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "0974c882-d9b9-4c9d-a1db-05c0fee82523",
+          "explanation": "Databricks is not open source; it is a closed source commercial platform."
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "74085608-b0db-4f28-b1cf-ff83f87fb07c",
+          "explanation": "Databricks is designed to run on cloud infrastructure due to the complex requirements of scalability, computing power and storage required to process and analyze large amounts of data. It leverages the cloud to provide flexibility, resources and easy access to provide different data sources, which means it cannot be run on-premise."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "af017d7a-6e66-467a-87ad-1765a07563f3",
+          "explanation": "If you host Kubernetes yourself or through a provider, Databricks cannot easily be added to your current system. However, you can host Databricks via Databricks, AWS, Azure or GCP and connect it to your Kubernetes solution."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "1f3396cf-8727-43c8-912d-0911517dc894",
+          "explanation": "If you do not use AWS, Azure or GCP, Databricks cannot easily be added to your current system. However, you can host Databricks via Databricks, AWS, Azure or GCP and connect it to your current solution."
+        },
+        {
+          "question_id": "8aadcd11-ca15-4c09-b2d2-3159a318118b",
+          "answer_id": "cb13fb65-7db4-4d52-b67f-39e885d023d4",
+          "explanation": "If you are already using a data lake or warehouse solution, Databricks will contain an unnecessary package of functions such as ETL and DataOps"
+        },
+        {
+          "question_id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+          "answer_id": "7c9f2f59-d736-4f6e-aa05-d2b205d5b66d",
+          "explanation": "Keep in mind that large data platforms require a significant amount of time and knowledge to set up. A simpler solution is possible but often costs functionality"
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c8533619-431e-48cf-b7b3-5ff5f65263d1",
+          "explanation": "Automatically finding the optimal hyperparameters is not built into Databricks by default, but it is quite easy to implement this via code. See <a href=\"https://docs.databricks.com/en/machine- learning/automl-hyperparam-tuning/index.html\" target=\"_blank\">this link</a> for detailed instructions."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "629c3eda-64d2-4768-a26d-e5a901c4e170",
+          "explanation": "Annotating data via Databricks is not directly possible. For data annotation it is recommended to use external tools, such as Labelbox. Consult <a href=\"https://docs.databricks.com/ en/machine-learning/reference-solutions/data-labeling.html#:~:text=Databricks%20does%20not%20directly%20support,Partner%20Connect%20documentation%20for%20Labelbox\" target=\"_blank\"> this link</a> for more details."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "265f2953-f37c-4c0b-8f61-e2a15118291e",
+          "explanation": "By default, Databricks does not support data versioning, but it is considerably easy to install and integrate DVC into the Databricks workflow for effective data versioning."
+        }
+      ]
+    },
+    {
+      "id": "963aaa51-8a46-4d4e-9808-d25ea81053210c",
+      "title": "Sagemaker",
+      "description": "Amazon SageMaker is a powerful and fully managed machine learning platform offered by Amazon Web Services (AWS). It allows users to easily build, train, and deploy machine learning models at scale. SageMaker provides an integrated development environment with built-in tools for data labeling, model training, and model deployment, simplifying the process of developing machine learning applications. SageMaker allows users to use various algorithms and frameworks, such as TensorFlow, PyTorch, and Scikit-learn, and take advantage of scalable computing resources to quickly and efficiently train models. Additionally, SageMaker enables models to be easily deployed into production with managed endpoints, allowing them to be seamlessly integrated into operational systems and applications.",
+      "link": "https://aws.amazon.com/sagemaker/",
+      "img_link": "sagemaker_logo.png",
+      "good_compatible": [
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "8be91de1-04e3-4415-91f9-9f31ce1a6ab8",
+          "explanation": "Although ETL is not possible directly in Amazon SageMaker, you can leverage AWS features to perform ETL tasks as SageMaker is an integral part of the AWS ecosystem."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "ee245bf1-0447-4460-beb0-26ce8987a59a",
+          "explanation": "Amazon SageMaker is a machine learning (ML) service provided by Amazon Web Services (AWS), SageMaker is a proprietary service specifically designed and managed by AWS. SageMaker is built and optimized to work within the AWS ecosystem, leveraging AWS infrastructure, services, and APIs. It is tightly integrated with AWS services such as S3, IAM, and others."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "c45c0a87-dfbc-428f-93a2-825a0ab9ca51",
+          "explanation": "SageMaker is at the core of AWS's MLOps offering, providing all the essential capabilities needed to manage machine learning processes smoothly and at scale. With integrated tools and services, SageMaker supports various phases of the end -to-end machine learning journey, such as dataset management, model training, hyperparameter optimization, deployment and monitoring It serves as a powerful solution across the broad spectrum of AWS services."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "77900f70-1a5b-4d1a-a7e9-561e80027e28",
+          "explanation": "DataOps is not directly possible in Amazon SageMaker, but since SageMaker is part of AWS, you can leverage AWS capabilities to perform DataOps tasks."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "e9000130-1d1a-4898-a1ce-ef434c8ec110",
+          "explanation": "Direct visualization and data insights are not built into Amazon SageMaker. However, you could use various AWS features to perform these tasks since SageMaker is part of the broader AWS ecosystem."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "629c3eda-64d2-4768-a26d-e5a901c4e170",
+          "explanation": "It is possible to annotate unlabeled data or photos in a structured way with SageMaker. See: <a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/sms. html\" target=\"_blank\">link</a> "
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "6fc847a4-d0b1-4bd4-aa5d-5119e0df65e3",
+          "explanation": "SageMaker has its own functionality for managing and running experiments, called SageMaker Experiments. Additionally, it offers the flexibility to integrate with MLflow, if preferred."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c21f0ead-9e20-4823-8875-d61a9d7542dd",
+          "explanation": "SageMaker provides data drift detection functionality. More information about this is available at: <a href=\"https://aws.amazon.com/blogs/architecture/detecting-data-drift-using-amazon -sagemaker/\" target=\"_blank\">this link</a>."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "83b528f4-3ea9-427e-9ce5-772685655d43",
+          "explanation": "SageMaker provides functionality for detecting model drift. More information about this is available at: <a href=\"https://aws.amazon.com/blogs/architecture/detecting-data-drift-using- amazon-sagemaker/\" target=\"_blank\">this link</a>."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "7a8606ca-dac3-497d-ae7e-73b6643aae4e",
+          "explanation": "SageMaker provides specific tools for Large Language Model (LLM) operations. For more detailed information on operationalizing LLM evaluation at scale with Amazon SageMaker Clarify and MLOps services, please see the following link <a href =\"https://aws.amazon.com/blogs/machine-learning/operationalize-llm-evaluation-at-scale-using-amazon-sagemaker-clarify-and-mlops-services/\" target=\"_blank \">link</a>"
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3a85d010-e8c4-4a29-a3dd-330376caf110",
+          "explanation": "It is possible to orchestrate advanced pipelines with Sagemaker. Sagemaker is connected to the AWS ecosystem which makes it possible to create state-of-the-art pipelines for both your data and machine learning issues,"
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3bb6617b-88f2-48a3-b235-381e8edfd3d9",
+          "explanation": "With SageMaker it is possible to train multiple machine learning models with just one push of a button. This functionality makes it efficient and easy to develop and compare various models"
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "37aff572-f1a8-4401-ac52-51183844c06c",
+          "explanation": "It is not possible to run an AWS or SageMaker instance on-premise. It is important to carefully consider local capabilities as scaling instances on-premise is often more challenging and machine learning typically requires significant resources."
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "4a41cfb5-c413-48d1-bab7-7b2e320e09e3",
+          "explanation": "Amazon SageMaker is a machine learning (ML) service provided by Amazon Web Services (AWS), SageMaker is a proprietary service specifically designed and managed by AWS and is therefore not open source or free."
+        },
+        {
+          "question_id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+          "answer_id": "80d91bdb-7cd4-4ab7-a8b3-7cb7d4f01332",
+          "explanation": "Keep in mind that large data platforms require a significant amount of time and knowledge to set up. A simpler solution is possible but often costs functionality"
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "f96feb5c-7f24-436e-aa35-70a170bccfd9",
+          "explanation": "It is possible to annotate unlabeled data or photos in a structured way with SageMaker. See: <a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/sms. html\" target=\"_blank\">link</a> "
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "6c468e8d-a48b-4e5b-ba9c-9042d82d6ff9",
+          "explanation": "It is possible to annotate unlabeled data or photos in a structured way with SageMaker. See: <a href=\"https://docs.aws.amazon.com/sagemaker/latest/dg/sms. html\" target=\"_blank\">link</a> "
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "8b084d94-059d-4443-ae7d-d8f46d2e3e52",
+          "explanation": "Amazon SageMaker is a machine learning (ML) service offered by Amazon Web Services (AWS). SageMaker is a proprietary service specifically designed and managed by AWS. The AWS ecosystem is a good choice for to keep in mind if you are not yet using a data platform as it offers a huge number of functionalities for all your data and machine learning issues."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3e6a8487-1793-4062-aee3-271c6e435818",
+          "explanation": "With SageMaker it's easy to publish, power up, and deploy a model."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "3e29d8d1-aef4-45a9-9728-606880731d87",
+          "explanation": "Amazon SageMaker offers features such as sharing notebooks, model artifacts, and datasets, which promotes collaboration within teams by making it easy to share code and results. However, it lacks native support for real-time collaboration on the same notebook or documents, which can complicate team collaboration. Role-Based Access Control (RBAC) is possible in SageMaker, allowing administrators to assign specific access rights to users within the platform persons."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "7ca2debe-b701-4e89-958d-6d3cff385de0",
+          "explanation": "Amazon SageMaker offers features such as sharing notebooks, model artifacts, and datasets, which promotes collaboration within teams by making it easy to share code and results. However, it lacks native support for real-time collaboration on the same notebook or documents, which can complicate team collaboration. Role-Based Access Control (RBAC) is possible in SageMaker, allowing administrators to assign specific access rights to users within the platform persons."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "6687720c-ef4d-4663-8e79-a98694bb10d9",
+          "explanation": "Amazon SageMaker offers features such as sharing notebooks, model artifacts, and datasets, which promotes collaboration within teams by making it easy to share code and results. However, it lacks native support for real-time collaboration on the same notebook or documents, which can complicate team collaboration. Role-Based Access Control (RBAC) is possible in SageMaker, allowing administrators to assign specific access rights to users within the platform persons."
+        }
+      ],
+      "bad_compatible": [
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "963aaa51-8a46-4d4e-9808-d25ea810560c",
+          "explanation": "Amazon SageMaker is a machine learning (ML) service offered by Amazon Web Services (AWS), while Databricks is a cloud computing platform offered by Databricks. SageMaker is a proprietary service designed specifically and managed by AWS."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "03c4d074-2773-41cd-962a-892d13882ef4",
+          "explanation": "Amazon SageMaker is a machine learning (ML) service offered by Amazon Web Services (AWS), while Azure is a cloud computing platform offered by Microsoft. SageMaker is a proprietary service designed specifically and managed by AWS."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "b33b4738-05e9-42a9-8680-78a15ff65b0a",
+          "explanation": "Amazon SageMaker is a machine learning (ML) service offered by Amazon Web Services (AWS), while GCP is a cloud computing platform offered by Google. SageMaker is a proprietary service designed specifically and managed by AWS."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "af017d7a-6e66-467a-87ad-1765a07563f3",
+          "explanation": "Amazon SageMaker is a machine learning (ML) service provided by Amazon Web Services (AWS). SageMaker is a proprietary service specifically designed and managed by AWS."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "1f3396cf-8727-43c8-912d-0911517dc894",
+          "explanation": "Amazon SageMaker is a machine learning (ML) service provided by Amazon Web Services (AWS). SageMaker is a proprietary service specifically designed and managed by AWS."
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "74085608-b0db-4f28-b1cf-ff83f87fb07c",
+          "explanation": "It is not possible to use an AWS or SageMaker instance on-premise. It is important to carefully consider local capabilities as scaling instances on-premise is often more challenging and machine learning typically requires significant resources."
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "0974c882-d9b9-4c9d-a1db-05c0fee82523",
+          "explanation": "Amazon SageMaker is a machine learning (ML) service provided by Amazon Web Services (AWS), SageMaker is a proprietary service specifically designed and managed by AWS and is therefore not open source or free."
+        },
+        {
+          "question_id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+          "answer_id": "7c9f2f59-d736-4f6e-aa05-d2b205d5b66d",
+          "explanation": "Keep in mind that large data platforms require a significant amount of time and knowledge to set up. A simpler solution is possible but often costs functionality"
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "265f2953-f37c-4c0b-8f61-e2a15118291e",
+          "explanation": "Out-of-the-box, SageMaker does not support data versioning, but you can implement it yourself. For more information on implementing data versioning with SageMaker, see the following link: <a href=\"https ://dvc.org/doc/user-guide/integrations/sagemaker/\" target=\"_blank\">link</a>. "
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c8533619-431e-48cf-b7b3-5ff5f65263d1",
+          "explanation": "By default, SageMaker does not provide a built-in ability to automatically find the optimal hyperparameters. You will need to implement this yourself, for example by writing and using hyperparameter tuning scripts."
+        }
+      ],
+      "match": {
+        "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+        "answer_id": "629c3eda-64d2-4768-a26d-e5a901c4e170",
+        "explanation": "It is possible to annotate unlabeled data or photos with Sagemaker. See: https://docs.aws.amazon.com/sagemaker/latest/dg/sms.html"
+      }
+    },
+    {
+      "id": "963abb12-8a46-4d4e-9808-d25ea810560c",
+      "title": "Azure ML",
+      "description": "Azure Machine Learning (Azure ML) is a comprehensive cloud-based platform from Microsoft for building, training, and deploying machine learning models. It provides a suite of tools and services that support developers and data scientists in creating cutting-edge solutions for data analysis and AI. With Azure ML, users can easily run experiments, build models with popular frameworks such as TensorFlow, PyTorch, and scikit-learn, and scale these models using powerful computing resources in the cloud machine learning (AutoML) that simplify the process of model selection, training, and deployment for users without extensive machine learning expertise. Azure ML also supports model deployment using containerized solutions and provides model performance monitoring capabilities and managing the lifecycle of machine learning models. By integrating with other Azure services, users can take advantage of a wide range of data management, security, and scalability capabilities, allowing them to build end-to-end solutions for their machine learning and AI projects in the cloud.",
+      "link": "https://azure.microsoft.com/nl-nl/products/machine-learning",
+      "img_link": "azureml_logo.png",
+      "good_compatible": [
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "bcd62443-7827-44cb-88bb-b9fd5a3651ae",
+          "explanation": "Nice"
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "6b3b3542-9081-48c6-8e45-2e0556b25f67",
+          "explanation": "Perfect match"
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "03c4d074-2773-41cd-962a-892d13882ef4",
+          "explanation": "Azure Machine Learning (Azure ML) is Microsoft's cloud-based machine learning service and is the easiest and best option when using Azure due to a close and good integration of functionalities in both."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "8be91de1-04e3-4415-91f9-9f31ce1a6ab8",
+          "explanation": "Although ETL is not built directly into Azure Machine Learning, you can leverage the extensive capabilities within the Azure ecosystem to perform ETL tasks, leveraging specific Azure services for effective Extract, Transform, Load (ETL) processes."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "c45c0a87-dfbc-428f-93a2-825a0ab9ca51",
+          "explanation": "Azure Machine Learning (Azure ML) is the core component for MLOps within the extensive Azure ecosystem. With a comprehensive set of capabilities, Azure ML supports managing diverse machine learning processes seamlessly and at scale. Built-in with essential tools and services, Azure ML guides users through the entire end-to-end machine learning journey, including dataset management, model training, hyperparameter optimization, deployment, and monitoring. As a powerful and integrated solution across the broad spectrum of Azure services, Azure ML empowers users able to develop and operationalize advanced machine learning models."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "77900f70-1a5b-4d1a-a7e9-561e80027e28",
+          "explanation": "DataOps is not built directly into Azure Machine Learning, but because Azure ML is part of the broader Azure ecosystem, you can leverage features within Azure to perform DataOps tasks and manage your data workflow."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "e9000130-1d1a-4898-a1ce-ef434c8ec110",
+          "explanation": "Direct visualization and insights from data are not built into Azure Machine Learning. However, you should leverage the rich features within the broader Azure ecosystem to generate data visualization and insights."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "629c3eda-64d2-4768-a26d-e5a901c4e170",
+          "explanation": "It is possible to annotate your data or photos via Azure Machine Learning. For detailed information about labeling data, please refer to the following link: See: <a href=\"https://learn.microsoft .com/en-us/azure/machine-learning/how-to-label-data?view=azureml-api-2.\" target=\"_blank\">link</a>."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "6fc847a4-d0b1-4bd4-aa5d-5119e0df65e3",
+          "explanation": "It is possible to create experiments and gain deep insights using tools within Azure Machine Learning. This allows you to perform deep analysis and effectively assess the results of your machine learning experiments."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c21f0ead-9e20-4823-8875-d61a9d7542dd",
+          "explanation": "Data drift can be detected using Azure Machine Learning. For detailed information on monitoring datasets and detecting data drift, please refer to the following link: \n<a href=\"https:/ /learn.microsoft.com/en-us/azure/machine-learning/how-to-monitor-datasets?view=azureml-api-1&tabs=python\" target=\"_blank\">link</a>. "
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "83b528f4-3ea9-427e-9ce5-772685655d43",
+          "explanation": "Azure Machine Learning (Azure ML) provides the ability to detect model drift through a visual indicator in their dashboard. This allows users to easily and effectively observe and evaluate changes in the performance of machine learning models through a clean and intuitive interface. This feature helps proactively manage and maintain models in production, enabling organizations to monitor and maintain the accuracy and relevance of their models over time."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "7a8606ca-dac3-497d-ae7e-73b6643aae4e",
+          "explanation": "Azure Machine Learning provides specific functionality aimed at operationalizing and training Large Language Models. For an introduction and more information about LLMOps, please see the following link: <a href=\"https:/ /techcommunity.microsoft.com/t5/ai-machine-learning-blog/an-introduction-to-llmops-operationalizing-and-managing-large/ba-p/3910996\" target=\"_blank\">link< /a> ."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "265f2953-f37c-4c0b-8f61-e2a15118291e",
+          "explanation": "Azure Machine Learning provides tools to track and store the versions of your datasets. For more information about versioning and tracking datasets, see the following link: <a href=\"https:/ /learn.microsoft.com/en-us/azure/machine-learning/how-to-version-track-datasets?view=azureml-api-1\" target=\"_blank\">link</a> . "
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3a85d010-e8c4-4a29-a3dd-330376caf110",
+          "explanation": "Within Azure's extensive ecosystem, it is possible to create pipelines for both DataOps and MLOps. These pipelines provide a streamlined and automated workflow for managing both data editing and machine learning operations. By leveraging the various services and tools within Azure, users can set up end-to-end processes including data processing, model training, deployment and monitoring."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3bb6617b-88f2-48a3-b235-381e8edfd3d9",
+          "explanation": "Azure ML allows users to train and test multiple machine learning models with just the click of a button, without having to write additional code. This automated capability simplifies and accelerates the experimentation process, helping users can quickly understand the performance of different models without extensive manual interventions."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3e6a8487-1793-4062-aee3-271c6e435818",
+          "explanation": "It is possible to publish machine learning models in Azure Machine Learning. The published models are easily accessible via API calls, giving users a streamlined and flexible way to integrate their machine learning models into production environments. "
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "37aff572-f1a8-4401-ac52-51183844c06c",
+          "explanation": "Azure Machine Learning (Azure ML) is Microsoft's cloud-based machine learning service and can only be used on Azure, so it is not possible to use a variant of it locally"
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "4a41cfb5-c413-48d1-bab7-7b2e320e09e3",
+          "explanation": "Azure Machine Learning (Azure ML) is Microsoft's cloud-based machine learning service and can only be used on Azure. It is not open source and not free."
+        },
+        {
+          "question_id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+          "answer_id": "80d91bdb-7cd4-4ab7-a8b3-7cb7d4f01332",
+          "explanation": "Keep in mind that large data platforms require a significant amount of time and knowledge to set up. A simpler solution is possible, but often comes at the expense of functionality"
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "f96feb5c-7f24-436e-aa35-70a170bccfd9",
+          "explanation": "It is possible to annotate your data or photos via Azure Machine Learning. For detailed information about labeling data, please refer to the following link: See: <a href=\"https://learn.microsoft .com/en-us/azure/machine-learning/how-to-label-data?view=azureml-api-2.\" target=\"_blank\">link</a>."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "6c468e8d-a48b-4e5b-ba9c-9042d82d6ff9",
+          "explanation": "It is possible to annotate your data or photos via Azure Machine Learning. For detailed information about labeling data, please refer to the following link: See: <a href=\"https://learn.microsoft .com/en-us/azure/machine-learning/how-to-label-data?view=azureml-api-2.\" target=\"_blank\">link</a>."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "8b084d94-059d-4443-ae7d-d8f46d2e3e52",
+          "explanation": "Azure Machine Learning (Azure ML) is Microsoft's cloud-based machine learning service and can only be used on Azure. The Azure ecosystem is a good choice to consider if you are not yet using a data platform as it offers a huge number of functionalities for all your data and machine learning issues."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "3e29d8d1-aef4-45a9-9728-606880731d87",
+          "explanation": "Azure ML offers features such as model versioning, collaborative experimentation, and shared datasets, which promote collaboration within teams. However, it lacks real-time code editing collaboration capabilities to facilitate concurrent changes. Role-Based Access Control (RBAC) is possible in Azure ML. The system is suitable for teams of all sizes, including teams of 1, 5 or more than 10 people, due to the scalability and flexibility of the service."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "7ca2debe-b701-4e89-958d-6d3cff385de0",
+          "explanation": "Azure ML offers features such as model versioning, collaborative experimentation, and shared datasets, which promote collaboration within teams. However, it lacks real-time code editing collaboration capabilities to facilitate concurrent changes. Role-Based Access Control (RBAC) is possible in Azure ML. The system is suitable for teams of all sizes, including teams of 1, 5 or more than 10 people, due to the scalability and flexibility of the service."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "6687720c-ef4d-4663-8e79-a98694bb10d9",
+          "explanation": "Azure Machine Learning (Azure ML) provides features such as model versioning, collaborative experimentation, and shared datasets, which promote collaboration within teams. However, it lacks capabilities for real-time collaboration in code editing to facilitate concurrent changes . Role-Based Access Control (RBAC) is possible in Azure ML. The system is suitable for teams of all sizes, including teams of 1, 5 or more than 10 people, due to the scalability and flexibility of the service."
+        }
+      ],
+      "bad_compatible": [
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "e3e1cc59-5923-483a-94e7-986c96b757e0",
+          "explanation": "Can't"
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "2ae2f467-4e22-47ba-9e0f-0d46a62c4f46",
+          "explanation": "Can't"
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "963aaa51-8a46-4d4e-9808-d25ea810560c",
+          "explanation": "Azure Machine Learning (Azure ML) is Microsoft's cloud-based machine learning service and cannot be used in Databricks. It is possible to use an Azure variant of Databricks."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "ee245bf1-0447-4460-beb0-26ce8987a59a",
+          "explanation": "Azure Machine Learning (Azure ML) is Microsoft's cloud-based machine learning service and cannot be used in AWS."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "b33b4738-05e9-42a9-8680-78a15ff65b0a",
+          "explanation": "Azure Machine Learning (Azure ML) is Microsoft's cloud-based machine learning service and cannot be used in GCP."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "af017d7a-6e66-467a-87ad-1765a07563f3",
+          "explanation": "Azure Machine Learning (Azure ML) is Microsoft's cloud-based machine learning service and cannot be used in a hosted Kubernetes architecture."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "1f3396cf-8727-43c8-912d-0911517dc894",
+          "explanation": "Azure Machine Learning (Azure ML) is Microsoft's cloud-based machine learning service and can only be used on Azure."
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "74085608-b0db-4f28-b1cf-ff83f87fb07c",
+          "explanation": "Azure Machine Learning (Azure ML) is Microsoft's cloud-based machine learning service and can only be used on Azure, so it is not possible to use a variant of it locally"
+        },
+        {
+          "question_id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+          "answer_id": "7c9f2f59-d736-4f6e-aa05-d2b205d5b66d",
+          "explanation": "Keep in mind that large data platforms require a significant amount of time and knowledge to set up. A simpler solution is possible, but often comes at the expense of functionality"
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "0974c882-d9b9-4c9d-a1db-05c0fee82523",
+          "explanation": "Azure Machine Learning (Azure ML) is Microsoft's cloud-based machine learning service and can only be used on Azure. It is not open source and not free."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c8533619-431e-48cf-b7b3-5ff5f65263d1",
+          "explanation": "It is not possible to automatically find optimal hyperparameters in Azure Machine Learning. Optimizing hyperparameters requires additional work and may require the use of hyperparameter tuning techniques."
+        }
+      ],
+      "match": {
+        "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+        "answer_id": "629c3eda-64d2-4768-a26d-e5a901c4e170",
+        "explanation": "It is possible to annotate your data or photos via Azure ML. See: https://learn.microsoft.com/en-us/azure/machine-learning/how-to-label-data?view =azureml-api-2"
+      }
+    },
+    {
+      "id": "964aaa51-8a46-4d4e-9808-d25ea810560c",
+      "title": "Vertex ai",
+      "description": "Vertex AI is a comprehensive machine learning platform from Google Cloud for building, training, and deploying AI models in the cloud. It offers a range of tools and services that support developers and data scientists in creating advanced data analytics and AI solutions. Vertex AI allows users to effortlessly run experiments, build models with popular frameworks such as TensorFlow and scikit-learn, and scale them using powerful cloud computing resources. The platform includes automated machine learning (AutoML) capabilities. simplifying the process of model selection, training and deployment for users without deep machine learning expertise. Vertex AI also supports model deployment using containerized solutions and provides model performance monitoring and management capabilities. the lifecycle of AI models. With integration with other Google Cloud services, users can take advantage of a wide range of data management, security, and scalability capabilities, helping them build end-to-end solutions for their AI and machine learning projects. in the cloud.",
+      "link": "https://cloud.google.com/vertex-ai?hl=nl",
+      "img_link": "vertex_logo.png",
+      "good_compatible": [
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "bcd62443-7827-44cb-88bb-b9fd5a3651ae",
+          "explanation": "Nice"
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "2ae2f467-4e22-47ba-9e0f-0d46a62c4f46",
+          "explanation": "Yes"
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "c7e8fbb4-936d-47e7-b2fe-6d21b0be5235",
+          "explanation": "Yes"
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "b33b4738-05e9-42a9-8680-78a15ff65b0a",
+          "explanation": "Vertex AI, Google's cutting-edge cloud-based machine learning service, has been meticulously designed to integrate seamlessly with the Google Cloud Platform (GCP), providing perfect synergy with Google's extensive cloud services."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "af017d7a-6e66-467a-87ad-1765a07563f3",
+          "explanation": "Google Cloud offers an integrated Kubernetes service called Google Kubernetes Engine (GKE), which is specifically designed to make Kubernetes clusters easy to create and manage in the cloud. Although Vertex AI does not specifically support running Kubernetes clusters such as Google Kubernetes Engine (GKE), Kubernetes can be used in combination with Vertex AI to deploy and manage machine learning workloads."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "8be91de1-04e3-4415-91f9-9f31ce1a6ab8",
+          "explanation": "Although ETL is not directly possible with Vertex AI, as it is an integral part of Google Cloud Platform (GCP), you can leverage the various features within GCP to effectively perform Extract, Transform, Load (ETL) tasks to carry out."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "c45c0a87-dfbc-428f-93a2-825a0ab9ca51",
+          "explanation": "Vertex AI is the advanced MLops tool within the Google Cloud Platform (GCP) ecosystem. This powerful tool is specifically designed to support the full spectrum of machine learning operations, from data entry to model deployment."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "77900f70-1a5b-4d1a-a7e9-561e80027e28",
+          "explanation": "While DataOps is not built directly into Vertex AI, as an essential part of Google Cloud Platform (GCP), you can leverage the various features within GCP to perform DataOps tasks and effectively manage your data workflow. "
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "e9000130-1d1a-4898-a1ce-ef434c8ec110",
+          "explanation": "Although gaining insights and creating visualizations is not built directly into Vertex AI, as an integrated part of Google Cloud Platform (GCP), you can leverage the various features within GCP to perform these tasks effectively feed."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "6fc847a4-d0b1-4bd4-aa5d-5119e0df65e3",
+          "explanation": "It is possible to track experiments via TensorBoard in Vertex AI."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c21f0ead-9e20-4823-8875-d61a9d7542dd",
+          "explanation": "It is possible to detect data drift in your data using Vertex AI. See: <a href=\"https://cloud.google.com/vertex-ai/docs/model-monitoring/using -model-monitoring\" target=\"_blank\">link</a>."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "83b528f4-3ea9-427e-9ce5-772685655d43",
+          "explanation": "It is possible to detect model drift using Vertex AI. See: <a href=\"https://cloud.google.com/vertex-ai/docs/model-monitoring/using-model- monitoring\" target=\"_blank\">link</a>."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3a85d010-e8c4-4a29-a3dd-330376caf110",
+          "explanation": "Within Vertex AI and the extensive functionalities of Google Cloud Platform (GCP), it is possible to create and execute both DataOps pipelines and MLOps pipelines."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3bb6617b-88f2-48a3-b235-381e8edfd3d9",
+          "explanation": "With Vertex AI it is possible to train multiple machine learning models at the touch of a button without the need for manual coding."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "629c3eda-64d2-4768-a26d-e5a901c4e170",
+          "explanation": "It is possible to annotate data, objects or photos with Vertex AI. For detailed instructions, see <a href=\"https://cloud.google.com/vertex-ai/docs/datasets/label -using-console#object-detection\" target=\"_blank\">link</a>."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3e6a8487-1793-4062-aee3-271c6e435818",
+          "explanation": "With Vertex AI it is possible to publish machine learning models and easily invoke them via API calls."
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "37aff572-f1a8-4401-ac52-51183844c06c",
+          "explanation": "Vertex AI is Google's cloud-based machine learning service and is available exclusively on the Google Cloud Platform (GCP). Therefore, it is not possible to use a local variant of Vertex AI."
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "4a41cfb5-c413-48d1-bab7-7b2e320e09e3",
+          "explanation": "Vertex AI is Google's cloud-based machine learning service and is available exclusively on the Google Cloud Platform (GCP). Therefore, it is not possible to use a local or free variant of Vertex AI."
+        },
+        {
+          "question_id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+          "answer_id": "80d91bdb-7cd4-4ab7-a8b3-7cb7d4f01332",
+          "explanation": "Keep in mind that large data platforms require a significant amount of time and knowledge to set up. A simpler solution is possible but at the expense of functionality"
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "f96feb5c-7f24-436e-aa35-70a170bccfd9",
+          "explanation": "It is possible to annotate data, objects or photos with Vertex AI. For detailed instructions, see <a href=\"https://cloud.google.com/vertex-ai/docs/datasets/label -using-console#object-detection\" target=\"_blank\">link</a>."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "6c468e8d-a48b-4e5b-ba9c-9042d82d6ff9",
+          "explanation": "It is possible to annotate data, objects or photos with Vertex AI. For detailed instructions, see <a href=\"https://cloud.google.com/vertex-ai/docs/datasets/label -using-console#object-detection\" target=\"_blank\">link</a>."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "8b084d94-059d-4443-ae7d-d8f46d2e3e52",
+          "explanation": "Vertex AI, Google's cloud-based machine learning service, is designed exclusively for use within the Google Cloud Platform (GCP) and cannot be installed or run on other cloud providers. The GCP ecosystem is a good choice for This is something to consider if you are not yet using a data platform as it offers a huge number of functionalities for all your data and machine learning issues."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "3e29d8d1-aef4-45a9-9728-606880731d87",
+          "explanation": "Vertex AI promotes collaboration through integrated model versioning tools, allowing teams to easily share, monitor, and deploy models. However, the lack of built-in collaborative documentation and note-taking functionality can complicate collaboration. Role-Based Access Control (RBAC ) is possible in Vertex AI, allowing teams to manage access rights based on roles and responsibilities. This system can be used effectively for teams of 5 people or more, where the structure and control of RBAC are of greater value."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "7ca2debe-b701-4e89-958d-6d3cff385de0",
+          "explanation": "Vertex AI promotes collaboration through integrated model versioning tools, allowing teams to easily share, monitor, and deploy models. Role-Based Access Control (RBAC) is enabled in Vertex AI, allowing teams to manage access rights based on roles and responsibilities. This system can be used effectively for teams of 5 people or more, where the structure and control of RBAC are of greater value."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "6687720c-ef4d-4663-8e79-a98694bb10d9",
+          "explanation": "Vertex AI promotes collaboration through integrated model versioning tools, allowing teams to easily share, monitor, and deploy models. Role-Based Access Control (RBAC) is enabled in Vertex AI, allowing teams to manage access rights based on roles and responsibilities. This system can be used effectively for teams of 5 people or more, where the structure and control of RBAC are of greater value."
+        }
+      ],
+      "bad_compatible": [
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "e3e1cc59-5923-483a-94e7-986c96b757e0",
+          "explanation": "Nope"
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "6b3b3542-9081-48c6-8e45-2e0556b25f67",
+          "explanation": "Nope"
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "0974c882-d9b9-4c9d-a1db-05c0fee82523",
+          "explanation": "Vertex AI is Google's cloud-based machine learning service and is available exclusively on the Google Cloud Platform (GCP). Therefore, it is not possible to use a local or free variant of Vertex AI."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "963aaa51-8a46-4d4e-9808-d25ea810560c",
+          "explanation": "Vertex AI is Google's cloud-based machine learning service and cannot be installed or run on Databricks as these platforms are from different cloud providers."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "ee245bf1-0447-4460-beb0-26ce8987a59a",
+          "explanation": "Vertex AI is Google's cloud-based machine learning service and cannot be installed or run on AWS as these platforms are from different cloud providers."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "03c4d074-2773-41cd-962a-892d13882ef4",
+          "explanation": "Vertex AI is Google's cloud-based machine learning service and cannot be installed or run on Azure as these platforms are from different cloud providers."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "1f3396cf-8727-43c8-912d-0911517dc894",
+          "explanation": "Vertex AI, Google's cloud-based machine learning service, is designed exclusively for use within the Google Cloud Platform (GCP) and cannot be installed or run on other cloud providers."
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "74085608-b0db-4f28-b1cf-ff83f87fb07c",
+          "explanation": "Vertex AI is Google's cloud-based machine learning service and is available exclusively on the Google Cloud Platform (GCP). Therefore, it is not possible to use a local variant of Vertex AI."
+        },
+        {
+          "question_id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+          "answer_id": "7c9f2f59-d736-4f6e-aa05-d2b205d5b66d",
+          "explanation": "Keep in mind that large data platforms require a significant amount of time and knowledge to set up. A simpler solution is possible but at the expense of functionality"
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "7a8606ca-dac3-497d-ae7e-73b6643aae4e",
+          "explanation": "GCP, including Vertex AI, does not currently provide specific functionality for operationalizing or training Large Language Models. However, these tasks can be accomplished through MLops, using broader machine learning operational capabilities practices."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "265f2953-f37c-4c0b-8f61-e2a15118291e",
+          "explanation": "Data versioning is not currently built into Vertex AI or GCP, but there are options to implement and manage this yourself."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c8533619-431e-48cf-b7b3-5ff5f65263d1",
+          "explanation": "Automatically finding the optimal hyperparameters is not currently built directly into Vertex AI, but it is still possible to implement this through custom code."
+        }
+      ]
+    },
+    {
+      "id": "ee8b301a-22ab-4e40-9ad7-3e38cc9e3723",
+      "title": "KubeFlow",
+      "description": "Kubeflow is an open-source platform designed to orchestrate and manage machine learning workflows on Kubernetes, making it easier to develop, train, and deploy scalable, portable, and reproducible AI models in production environments." ,
+      "link": "https://www.kubeflow.org/",
+      "img_link": "kubeflow_logo.png",
+      "bad_compatible": [
+        {
+          "question_id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+          "answer_id": "7c9f2f59-d736-4f6e-aa05-d2b205d5b66d",
+          "explanation": "Keep in mind that large data platforms require a significant amount of time and knowledge to set up. A simpler solution is possible but often costs functionality"
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "963aaa51-8a46-4d4e-9808-d25ea810560c",
+          "explanation": "Databricks does not currently support running a Kubernetes cluster."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c21f0ead-9e20-4823-8875-d61a9d7542dd",
+          "explanation": "KubeFlow's MLOps tooling currently does not include Data Drift detection functionality."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "83b528f4-3ea9-427e-9ce5-772685655d43",
+          "explanation": "KubeFlow's MLOps tooling does not currently include Model Drift detection functionality."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "7a8606ca-dac3-497d-ae7e-73b6643aae4e",
+          "explanation": "KubeFlow does not provide out-of-the-box tooling for Large Language Model Operations (LLMOps). However, it is possible to use the regular MLOps functionality to develop a Large Language Model."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "265f2953-f37c-4c0b-8f61-e2a15118291e",
+          "explanation": "KubeFlow does not provide out-of-the-box tooling for data versioning. Nevertheless, it is possible to use the regular MLOps functionality to develop a Large Language Model."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c8533619-431e-48cf-b7b3-5ff5f65263d1",
+          "explanation": "It is currently not possible to automatically find the optimal hyperparameters through KubeFlow. Nevertheless, this functionality can still be implemented using custom code."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "629c3eda-64d2-4768-a26d-e5a901c4e170",
+          "explanation": "Although it is not possible to annotate data with the available tools in KubeFlow, it is easy to install tools yourself using containerization in Kubernetes."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "e9000130-1d1a-4898-a1ce-ef434c8ec110",
+          "explanation": "Unfortunately, KubeFlow does not provide the ability to gain deep insights into your data to make informed business decisions. However, it is possible to add this yourself by adding the tooling to Kubernetes yourself."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "3e29d8d1-aef4-45a9-9728-606880731d87",
+          "explanation": "Kubeflow offers features like shared Jupyter Notebooks and automated model deployments that promote team collaboration. However, it lacks integrated code review and collaborative model versioning, which can hinder collaboration. Role-Based Access Control (RBAC) is Kubeflow can be used effectively for teams of 5 or more people, but for smaller teams of 1-4 people it may be too extensive."
+        }
+      ],
+      "good_compatible": [
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "ee245bf1-0447-4460-beb0-26ce8987a59a",
+          "explanation": "When running a Kubernetes cluster on AWS, it is possible to use KubeFlow. It is recommended to consider KubeFlow if your business is deeply integrated with Kubernetes. However, if you use AWS features extensively, Amazon SageMaker is also a suitable solution."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "03c4d074-2773-41cd-962a-892d13882ef4",
+          "explanation": "When running a Kubernetes cluster on Azure, it is possible to use KubeFlow. It is recommended to consider KubeFlow if your company is deeply integrated with Kubernetes. However, if you use Azure features extensively, Azure Machine Learning is also a suitable solution."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "b33b4738-05e9-42a9-8680-78a15ff65b0a",
+          "explanation": "When running a Kubernetes cluster on GCP, it is possible to use KubeFlow. It is recommended to consider KubeFlow if your business is deeply integrated with Kubernetes. However, if you use GCP features extensively, Vertex AI is also a suitable solution."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "af017d7a-6e66-467a-87ad-1765a07563f3",
+          "explanation": "If you are already using Kubernetes, Kubeflow is an excellent choice to integrate seamlessly into your existing workflow."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "8be91de1-04e3-4415-91f9-9f31ce1a6ab8",
+          "explanation": "Kubeflow uses Argo, which allows the integration of ETL into your workflow. Thanks to containerization in Kubernetes, you also have the flexibility to implement and connect an ETL library yourself, for example with tools such as Airflow."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "c45c0a87-dfbc-428f-93a2-825a0ab9ca51",
+          "explanation": "With Kubeflow you have access to a diverse range of MLOps tools. What sets it apart from other tools is the ability to add desired MLOps functionality yourself, thanks to containerization in Kubernetes."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "77900f70-1a5b-4d1a-a7e9-561e80027e28",
+          "explanation": "Kubeflow uses Argo, which enables the integration of ETL into your workflow. Thanks to containerization in Kubernetes, you also have the option to implement and connect a DataOps library yourself, for example with tools such as Airflow. "
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "37aff572-f1a8-4401-ac52-51183844c06c",
+          "explanation": "Kubeflow can only be integrated into Kubernetes. Because Kubernetes is not specifically tied to a particular platform, it can be deployed in a variety of ways. When a Kubernetes instance is running in the cloud, Kubeflow can be installed."
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "74085608-b0db-4f28-b1cf-ff83f87fb07c",
+          "explanation": "Kubeflow is an open-source project and can only be integrated into Kubernetes. If you are running Kubernetes locally, Kubeflow can be easily installed and integrated into your local environment."
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "0974c882-d9b9-4c9d-a1db-05c0fee82523",
+          "explanation": "Kubeflow is a free and open-source platform. See: <a href=\"https://github.com/kubeflow/kubeflow\" target=\"_blank\">link</a>. "
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "4a41cfb5-c413-48d1-bab7-7b2e320e09e3",
+          "explanation": "Kubeflow is a free and open-source platform. See: <a href=\"https://github.com/kubeflow/kubeflow\" target=\"_blank\">link</a>. "
+        },
+        {
+          "question_id": "8aadcd11-ca15-4c09-b2d2-3159a318118b",
+          "answer_id": "d8d29384-8b01-47ab-848a-c5ae13cc5baa",
+          "explanation": "If you are already using Kubernetes, Kubeflow is an excellent choice, integrating seamlessly into your existing workflow to provide an optimized experience."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "6fc847a4-d0b1-4bd4-aa5d-5119e0df65e3",
+          "explanation": "KubeFlow pipelines allow you to effortlessly track and manage your experiments, greatly simplifying the process of experimentation and management."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3a85d010-e8c4-4a29-a3dd-330376caf110",
+          "explanation": "With KubeFlow pipelines it is possible to orchestrate pipelines."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3bb6617b-88f2-48a3-b235-381e8edfd3d9",
+          "explanation": "With KubeFlow AutoML, you can effortlessly train and test multiple machine learning models at the touch of a button, without having to write any code."
+        },
+        {
+          "question_id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+          "answer_id": "80d91bdb-7cd4-4ab7-a8b3-7cb7d4f01332",
+          "explanation": "Keep in mind that large data platforms require a significant amount of time and knowledge to set up. A simpler solution is possible but often costs functionality"
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "f96feb5c-7f24-436e-aa35-70a170bccfd9",
+          "explanation": "Although it is not possible to annotate data with the available tools in KubeFlow, it is easy to install tools yourself using containerization in Kubernetes."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "6c468e8d-a48b-4e5b-ba9c-9042d82d6ff9",
+          "explanation": "Although it is not possible to annotate data with the available tools in KubeFlow, it is easy to install tools yourself using containerization in Kubernetes."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "1f3396cf-8727-43c8-912d-0911517dc894",
+          "explanation": "If you want to use Kubeflow, you must use Kubernetes underlying it. If you do this, Kubeflow is an excellent choice to use as a data platform."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "8b084d94-059d-4443-ae7d-d8f46d2e3e52",
+          "explanation": "If you have chosen a cloud platform, check carefully whether you want to use Kubernetes. If so, Kubeflow is an excellent choice."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3e6a8487-1793-4062-aee3-271c6e435818",
+          "explanation": "The Kubeflow tool called MLRun serving allows you to publish and deploy trained models. See <a href=\"https://www.kubeflow.org/docs/external-add-ons/serving/mlrun /\" target=\"_blank\">link</a>."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "7ca2debe-b701-4e89-958d-6d3cff385de0",
+          "explanation": "Kubeflow offers features like shared Jupyter Notebooks and automated model deployments that promote team collaboration. However, it lacks integrated code review and collaborative model versioning, which can hinder collaboration. Role-Based Access Control (RBAC) is Kubeflow can be used effectively for teams of 5 or more people, but for smaller teams of 1-4 people it may be too extensive."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "6687720c-ef4d-4663-8e79-a98694bb10d9",
+          "explanation": "Kubeflow offers features such as shared Jupyter Notebooks and automated model deployments that promote collaboration within teams. However, it lacks an integrated feature for code review and collaborative model versioning, which can hinder collaboration. Based Access Control (RBAC) is possible. Kubeflow can be used effectively for teams of 5 or more people, but for smaller teams of 1-4 people it may be too extensive."
+        }
+      ]
+    },
+    {
+      "id": "994c4786-2a83-40e6-9ada-72b4f80268ee",
+      "title": "H2O.AI",
+      "description": "H2O.ai democratizes machine learning for business users by offering a suite of tools. Their primary platform, H2O, enables building and deploying ML models with an easy-to-use web interface. Deep Water extends this out with tighter integration for GPU-based deep learning, Sparkling Water integrates with Apache Spark and Steam is an enterprise solution for deploying ML models via APIs. Driverless AI simplifies model development for non-technical users by simplifying tasks like feature engineering and algorithm selection automate.",
+      "link": "https://h2o.ai/",
+      "img_link": "h2o_logo.png",
+      "bad_compatible": [
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "77900f70-1a5b-4d1a-a7e9-561e80027e28",
+          "explanation": "H2O.AI does not offer specific capabilities for DataOps. However, they do have partnerships with several companies that do offer this."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c8533619-431e-48cf-b7b3-5ff5f65263d1",
+          "explanation": "Although H2O.AI does not provide built-in functionality to automatically find optimal hyperparameters, this can still be implemented via code."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "963aaa51-8a46-4d4e-9808-d25ea810560c",
+          "explanation": "Databricks acts as an advanced data platform and is a service provider. It is currently not possible to install H2O.AI directly on Databricks."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "8be91de1-04e3-4415-91f9-9f31ce1a6ab8",
+          "explanation": "H2O.AI does not offer specific options for ETL (Extract, Transform, Load). They do have a partnership with KNIME, which is an open source ETL tool. This makes it possible, but does require additional tooling,"
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "e9000130-1d1a-4898-a1ce-ef434c8ec110",
+          "explanation": "H2O.AIO offers options for BI but this requires a lot of programming work. It does not offer visualization options. See the <a href=\"https://h2o.ai/solutions/use-case//\" target=\"_blank\">link</a> for more information."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "3e29d8d1-aef4-45a9-9728-606880731d87",
+          "explanation": "However, H2O.ai lacks capabilities for advanced model interpretation and collaboration features such as integrated code versioning, which can hinder collaboration. Role-Based Access Control (RBAC) is possible through integration with external tools such as LDAP or Active Directory. H2O. AI is suitable for teams of 5 people or more, offering scalability for larger teams, but may be too extensive for an individual user."
+        }
+      ],
+      "good_compatible": [
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "03c4d074-2773-41cd-962a-892d13882ef4",
+          "explanation": "H2O.AI is an open source solution and therefore not limited to a specific vendor. It can be deployed on different cloud instances."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "c45c0a87-dfbc-428f-93a2-825a0ab9ca51",
+          "explanation": "H2O.AI is a specialized tool for MLOps, designed to efficiently manage and optimize machine learning workflows."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c21f0ead-9e20-4823-8875-d61a9d7542dd",
+          "explanation": "It is possible to detect drift in the data via H2O.AI. Please refer to the <a href=\"https://docs.h2o.ai/wave-apps/h2o-model-validation/v0. 14.0/guide/validation-tests/drift-detection/drift-detection\" target=\"_blank\">link</a> for more detailed information."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "83b528f4-3ea9-427e-9ce5-772685655d43",
+          "explanation": "H2O.AI enables model drift detection. This allows you to identify changes in data and proactively respond to shifts in data distribution to maintain model performance."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "265f2953-f37c-4c0b-8f61-e2a15118291e",
+          "explanation": "The H2O.AI Feature Store makes it easy to keep track of versions of your dataset. See the <a href=\"https://h2o.ai/platform/ai-cloud/make/feature-store/\" target=\"_blank\">link</a> for more information."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "ee245bf1-0447-4460-beb0-26ce8987a59a",
+          "explanation": "H2O.AI is an open source solution and therefore not limited to a specific vendor. It can be deployed on different cloud instances."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "b33b4738-05e9-42a9-8680-78a15ff65b0a",
+          "explanation": "H2O.AI is an open source solution and therefore not limited to a specific vendor. It can be deployed on different cloud instances."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "af017d7a-6e66-467a-87ad-1765a07563f3",
+          "explanation": "H2O.AI is an open source solution and therefore not limited to a specific vendor. It can be deployed on different cloud instances."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "1f3396cf-8727-43c8-912d-0911517dc894",
+          "explanation": "H2O.AI is an open source solution and therefore not limited to a specific vendor. It can be deployed on different cloud instances."
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "37aff572-f1a8-4401-ac52-51183844c06c",
+          "explanation": "H2O.AI is an open source tool that can be installed and run both on-premise and in the cloud. In addition, H2O.AI offers the option to use their servers for a fee, giving users flexibility in their implementation choices."
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "74085608-b0db-4f28-b1cf-ff83f87fb07c",
+          "explanation": "H2O.AI is an open source tool that can be installed and run both on-premise and in the cloud. In addition, H2O.AI offers the option to use their servers for a fee, giving users flexibility in their implementation choices."
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "0974c882-d9b9-4c9d-a1db-05c0fee82523",
+          "explanation": "H2O.AI is an open source tool that can be installed and run both on-premise and in the cloud. In addition, H2O.AI offers the option to use their servers for a fee, giving users flexibility in their implementation choices."
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "4a41cfb5-c413-48d1-bab7-7b2e320e09e3",
+          "explanation": "H2O.AI is an open source tool that can be installed and run both on-premise and in the cloud. In addition, H2O.AI offers the option to use their servers for a fee, giving users flexibility in their implementation choices."
+        },
+        {
+          "question_id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+          "answer_id": "7c9f2f59-d736-4f6e-aa05-d2b205d5b66d",
+          "explanation": "H2O.AI stands out for its user-friendliness, with an installation process that is significantly easier compared to other tools in the same domain. This accessibility also extends to use, with H2O.AI offering intuitive features that make it easier for users to work effectively with the tool. This focus on ease of use makes H2O.AI an attractive choice for those looking for a powerful yet accessible machine learning platform."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "6fc847a4-d0b1-4bd4-aa5d-5119e0df65e3",
+          "explanation": "Setting up experiments with H2O.AI can be accomplished in several ways. H2O.AI provides separate experimental tools for each of their components, such as driverless.ai or Hydrogen Torch. This approach allows users to set up specific tools that best suit their needs, and provides flexibility in tackling various machine learning experiments."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "7a8606ca-dac3-497d-ae7e-73b6643aae4e",
+          "explanation": "H2O.AI has invested significantly in LLMOps (Large Language Model Operations) and has therefore become one of the best tools for developing and deploying LLM. Please refer to the <a href=\"https://h2o .ai/platform/open-source-gpt-and-llm-studio/\" target=\"_blank\">link</a> for more information."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3a85d010-e8c4-4a29-a3dd-330376caf110",
+          "explanation": "The use of H2O.ASSEMBLY and Scikit pipelines makes it possible to orchestrate pipelines. There is little documentation available on how advanced this functionality is."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3bb6617b-88f2-48a3-b235-381e8edfd3d9",
+          "explanation": "H2O.AI offers a powerful tool called Driverless AI, which can train and test multiple machine learning models at the touch of a button. See the <a href=\"https://h2o.ai/platform /ai-cloud/make/h2o-driverless-ai/\" target=\"_blank\">link</a> for more information."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "629c3eda-64d2-4768-a26d-e5a901c4e170",
+          "explanation": "H2O.AI provides advanced tooling for annotating both data and photos. For more information, see <a href=\"https://docs.h2o.ai/wave-apps/h2o-label- genie/tutorials/image/tutorial-3-b\" target=\"_blank\">link</a>."
+        },
+        {
+          "question_id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+          "answer_id": "80d91bdb-7cd4-4ab7-a8b3-7cb7d4f01332",
+          "explanation": "H2O.AI stands out for its user-friendliness, with an installation process that is significantly easier compared to other tools in the same domain. This accessibility also extends to use, with H2O.AI offering intuitive features that make it easier for users to work effectively with the tool. This focus on ease of use makes H2O.AI an attractive choice for those looking for a powerful yet accessible machine learning platform."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "f96feb5c-7f24-436e-aa35-70a170bccfd9",
+          "explanation": "H2O.AI provides advanced tooling for annotating both data and photos. For more information, see <a href=\"https://docs.h2o.ai/wave-apps/h2o-label- genie/tutorials/image/tutorial-3-b\" target=\"_blank\">link</a>."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "6c468e8d-a48b-4e5b-ba9c-9042d82d6ff9",
+          "explanation": "H2O.AI provides advanced tooling for annotating both data and photos. For more information, see <a href=\"https://docs.h2o.ai/wave-apps/h2o-label- genie/tutorials/image/tutorial-3-b\" target=\"_blank\">link</a>."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "8b084d94-059d-4443-ae7d-d8f46d2e3e52",
+          "explanation": "H2O.AI is open source and therefore not dependent on a cloud platform. Research whether you want to use the H2O.AI cloud platform or whether you want to use another cloud platform and H2O.AI on this want to configure."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3e6a8487-1793-4062-aee3-271c6e435818",
+          "explanation": "With H2O.AI MLOps it is possible to deploy and use machine learning models in production. See the <a href=\"https://docs.h2o.ai/mlops/deployments/deployments-create \" target=\"_blank\">link</a> for more information."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "7ca2debe-b701-4e89-958d-6d3cff385de0",
+          "explanation": "However, H2O.ai lacks capabilities for advanced model interpretation and collaboration features such as integrated code versioning, which can hinder collaboration. Role-Based Access Control (RBAC) is possible through integration with external tools such as LDAP or Active Directory. H2O. AI is suitable for teams of 5 people or more, offering scalability for larger teams, but may be too extensive for an individual user."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "6687720c-ef4d-4663-8e79-a98694bb10d9",
+          "explanation": "However, H2O.ai lacks capabilities for advanced model interpretation and collaboration features such as integrated code versioning, which can hinder collaboration. Role-Based Access Control (RBAC) is possible through integration with external tools such as LDAP or Active Directory. H2O. AI is suitable for teams of 5 people or more, offering scalability for larger teams, but may be too extensive for an individual user."
+        }
+      ],
+      "match": {
+        "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+        "answer_id": "83b528f4-3ea9-427e-9ce5-772685655d43",
+        "explanation": "dwa"
+      }
+    },
+    {
+      "id": "d5cfa187-4147-4177-8091-491f244f6344",
+      "title": "Data robot",
+      "description": "DataRobot is an automated machine learning platform that helps companies build, deploy, and manage powerful AI models without extensive programming knowledge. It provides an intuitive interface and advanced automation tools that accelerate and optimize the model development process, helping users can quickly and accurately build predictive models for various business needs.",
+      "link": "https://www.datarobot.com/",
+      "img_link": "datarobot_logo.png",
+      "bad_compatible": [
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "1f3396cf-8727-43c8-912d-0911517dc894",
+          "explanation": "It is not possible to run DataRobot on external cloud platforms. It is advisable to investigate whether DataRobot offers functionalities to read and use your specific stored data."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "77900f70-1a5b-4d1a-a7e9-561e80027e28",
+          "explanation": "DataRobot is primarily focused on MLOps and does not provide specific support for DataOps. DataOps-related tasks must be performed before the data is read into DataRobot. The platform focuses on managing machine learning operations."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "8be91de1-04e3-4415-91f9-9f31ce1a6ab8",
+          "explanation": "DataRobot is primarily designed for MLOps, and does not support ETL operations. These operations must be performed before the data is read into DataRobot."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "e9000130-1d1a-4898-a1ce-ef434c8ec110",
+          "explanation": "DataRobot is primarily intended for MLOps and does not offer specific functionalities for BI. The platform focuses on managing machine learning operations."
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "74085608-b0db-4f28-b1cf-ff83f87fb07c",
+          "explanation": "Using DataRobot on-premise is not possible. Access to DataRobot is only possible via their servers and for a fee."
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "0974c882-d9b9-4c9d-a1db-05c0fee82523",
+          "explanation": "Datarobot is not open source and must be purchased via a periodic subscription. Also, using more resources also entails additional costs."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "265f2953-f37c-4c0b-8f61-e2a15118291e",
+          "explanation": "Data versioning is not directly possible with DataRobot; this would require adding additional functionality outside of DataRobot. For more information about versioning production models in machine learning, see <a href=\"https ://www.datarobot.com/blog/how-to-version-control-your-production-machine-learning-models/\n\" target=\"_blank\">link</a> consult .\n "
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3a85d010-e8c4-4a29-a3dd-330376caf110",
+          "explanation": "DataRobot does not provide pipeline orchestration functionality on its own, but excels at integrating with various pipelining tools. This allows users to benefit from seamless collaboration between DataRobot and advanced pipelining tools for efficient management of end- to-end machine learning workflows."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "af017d7a-6e66-467a-87ad-1765a07563f3",
+          "explanation": "It is not possible to run DataRobot directly on Kubernetes. Other ways must be found to load data from a Kubernetes cluster to DataRobot."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "6687720c-ef4d-4663-8e79-a98694bb10d9",
+          "explanation": "DataRobot promotes collaboration through features such as the ability to share and version control models, making it easy for team members to collaborate on machine learning projects. Role-Based Access Control (RBAC) is possible in DataRobot, allowing teams of different sizes securely access the necessary resources and functionality. DataRobot is suitable for teams of 1, 5 or more than 10 people, but larger teams may benefit more from additional collaboration features."
+        }
+      ],
+      "good_compatible": [
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "b33b4738-05e9-42a9-8680-78a15ff65b0a",
+          "explanation": "It is not possible to run DataRobot directly on GCP. However, DataRobot has features that make it easy to read and use data from GCP."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "c45c0a87-dfbc-428f-93a2-825a0ab9ca51",
+          "explanation": "DataRobot places a strong emphasis on MLOps and provides advanced capabilities to effectively manage machine learning operations, including automating model deployment, monitoring performance, and facilitating collaboration between data scientists and operations teams."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "963aaa51-8a46-4d4e-9808-d25ea810560c",
+          "explanation": "Running DataRobot directly on Databricks is not possible. Nevertheless, there is an efficient collaboration between DataRobot and Databricks, which means that data can easily be read from Databricks by DataRobot. For more detailed information, you can read the <a href=\" https://www.datarobot.com/blog/simplifying-big-data-and-ai-with-datarobot-and-databricks/\" target=\"_blank\">link</a>consult."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "ee245bf1-0447-4460-beb0-26ce8987a59a",
+          "explanation": "Running DataRobot directly on AWS is not possible. Nevertheless, DataRobot provides functionality that allows it to read and use data from, for example, an AWS bucket."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "03c4d074-2773-41cd-962a-892d13882ef4",
+          "explanation": "It is not possible to run DataRobot directly on Azure. However, DataRobot has features that make it easy to read and use data from Azure."
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "37aff572-f1a8-4401-ac52-51183844c06c",
+          "explanation": "Running DataRobot in the cloud is the only option, but it is important to note that DataRobot is a private company. Access to their services is only available through services offered by them and for a fee."
+        },
+        {
+          "question_id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+          "answer_id": "7c9f2f59-d736-4f6e-aa05-d2b205d5b66d",
+          "explanation": "We personally find DataRobot to be the most user-friendly option for MLOps. It installs quickly and allows you to quickly get started training machine learning models. The emphasis on AutoML makes the process even more accessible. However, it is important to note that while the easy installation and AutoML functionalities allow for a quick start, this may come at the expense of deeper functionality."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "6fc847a4-d0b1-4bd4-aa5d-5119e0df65e3",
+          "explanation": "DataRobot makes it easy to set up experiments and view the results, making the platform intuitive for creating and managing machine learning experiments."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c21f0ead-9e20-4823-8875-d61a9d7542dd",
+          "explanation": "DataRobot provides extensive data drift monitoring capabilities, allowing users to closely observe and understand changes in input data. For a detailed explanation of data drift monitoring, please refer to this information <a href=\" https://docs.datarobot.com/en/docs/mlops/monitor/data-drift.html/\" target=\"_blank\">link</a> \n"
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "83b528f4-3ea9-427e-9ce5-772685655d43",
+          "explanation": "DataRobot provides model drift tracking capabilities, allowing users to closely monitor changes in the performance of their machine learning models. For detailed information on model drift monitoring, please visit the <a href= \" https://docs.datarobot.com/en/docs/mlops/monitor/data-drift.html/\" target=\"_blank\">link</a>."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "7a8606ca-dac3-497d-ae7e-73b6643aae4e",
+          "explanation": "DataRobot offers a wide range of features for developing a fully integrated generative machine learning model. For more details about Large Language Model Operations (LLMOps), please visit <a href=\" https://www .datarobot.com/wiki/large-language-model-operations-llmops/\n\" target=\"_blank\">link</a> consult."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c8533619-431e-48cf-b7b3-5ff5f65263d1",
+          "explanation": "Automatically finding optimal hyperparameters is possible within DataRobot, making hyperparameter tuning efficient and streamlined. For detailed information on hyperparameter tuning in DataRobot, please visit the <a href=\"https:// www.datarobot.com/blog/tuning-hyperparameters-in-datarobot/\" target=\"_blank\">link</a> for more information."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3bb6617b-88f2-48a3-b235-381e8edfd3d9",
+          "explanation": "In our opinion, DataRobot is the most accessible tool to get started with machine learning, thanks to its extensive and easy-to-use AutoML functionality. This allows users to quickly and effectively develop machine learning models, even without deep technical expertise ."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "629c3eda-64d2-4768-a26d-e5a901c4e170",
+          "explanation": "DataRobot provides a powerful tool to annotate data and images through collaboration with Labelbox. See the <a href=\"https://www.datarobot.com/blog/datarobot-and-labelbox-model-assisted-labeling/\" target=\"_blank\">link</a> for more information."
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "4a41cfb5-c413-48d1-bab7-7b2e320e09e3",
+          "explanation": "Datarobot is not open source and must be purchased via a periodic subscription. Also, using more resources also entails additional costs."
+        },
+        {
+          "question_id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+          "answer_id": "80d91bdb-7cd4-4ab7-a8b3-7cb7d4f01332",
+          "explanation": "We personally find DataRobot to be the most user-friendly option for MLOps. It installs quickly and allows you to quickly get started training machine learning models. The emphasis on AutoML makes the process even more accessible. However, it is important to note that while the easy installation and AutoML functionalities allow for a quick start, this may come at the expense of deeper functionality."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "f96feb5c-7f24-436e-aa35-70a170bccfd9",
+          "explanation": "DataRobot provides a powerful tool to annotate data and images through collaboration with Labelbox. See the <a href=\"https://www.datarobot.com/blog/datarobot-and-labelbox-model-assisted-labeling/\" target=\"_blank\">link</a> for more information."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "6c468e8d-a48b-4e5b-ba9c-9042d82d6ff9",
+          "explanation": "DataRobot provides a powerful tool to annotate data and images through collaboration with Labelbox. See the <a href=\"https://www.datarobot.com/blog/datarobot-and-labelbox-model-assisted-labeling/\" target=\"_blank\">link</a> for more information."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "8b084d94-059d-4443-ae7d-d8f46d2e3e52",
+          "explanation": "If your company is not yet active on a cloud platform, mainly wants to use the platform to explore machine learning and has no know-how about configuring a platform effectively, then Datarobot is a good choice to start with This is because data robot is a simple tool to start experimenting with machine learning."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3e6a8487-1793-4062-aee3-271c6e435818",
+          "explanation": "It is possible to publish models to several other cloud platforms such as AWS and Azure. DataRobot also offers the option to do this via their own servers. See <a href=\"https://www.datarobot. com/blog/deploying-model-in-datarobot-overview/\" target=\"_blank\">link</a> for more information."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "3e29d8d1-aef4-45a9-9728-606880731d87",
+          "explanation": "DataRobot promotes collaboration through features such as the ability to share and version control models, making it easy for team members to collaborate on machine learning projects. Role-Based Access Control (RBAC) is possible in DataRobot, allowing teams of different sizes securely access the necessary resources and functionality. DataRobot is suitable for teams of 1, 5 or more than 10 people, but larger teams may benefit more from additional collaboration features."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "7ca2debe-b701-4e89-958d-6d3cff385de0",
+          "explanation": "DataRobot promotes collaboration through features such as the ability to share and version control models, making it easy for team members to collaborate on machine learning projects. Role-Based Access Control (RBAC) is possible in DataRobot, allowing teams of different sizes securely access the necessary resources and functionality. DataRobot is suitable for teams of 1, 5 or more than 10 people, but larger teams may benefit more from additional collaboration features."
+        }
+      ],
+      "match": {
+        "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+        "answer_id": "c45c0a87-dfbc-428f-93a2-825a0ab9ca51",
+        "explanation": "dwad"
+      }
+    },
+    {
+      "id": "c4cd4364-2611-4b47-a61f-c357e3163da1",
+      "title": "Weights&biases",
+      "description": "Weights and Biases is a platform for experiment tracking and visualization in machine learning. It provides tools to help researchers and data scientists track, analyze, and share their machine learning experiments. The platform captures key parameters, results, and visualizations to provide insight into model performance, allowing teams to collaborate more effectively and make more informed decisions during the AI ​​model development process.",
+      "link": "https://wandb.ai/site",
+      "img_link": "wandb_logo.png",
+      "bad_compatible": [
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "8be91de1-04e3-4415-91f9-9f31ce1a6ab8",
+          "explanation": "Weights and Biases is designed for MLOps, which means that data must already have been processed before it can be used by Weights and Biases."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "77900f70-1a5b-4d1a-a7e9-561e80027e28",
+          "explanation": "Weights and Biases was developed for MLOps, and from this perspective it offers an extensive range of tools and functionalities. However, it is important to note that the data must be pre-processed before it can be used by Weights and Biases ."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "e9000130-1d1a-4898-a1ce-ef434c8ec110",
+          "explanation": "Weights and Biases is designed for MLOps, and therefore requires data to be processed before it can be used. For Business Intelligence purposes, other tools specifically tailored to that application will be required."
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "0974c882-d9b9-4c9d-a1db-05c0fee82523",
+          "explanation": "Weights and Biases is a semi-open source program, but companies are not allowed to host it on-premise for free. Please refer to the <a href=\"https://wandb.ai/site/pricing\" target=\"_blank\">link</a> for the pricing model."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c21f0ead-9e20-4823-8875-d61a9d7542dd",
+          "explanation": "Weights and Biases does not have out-of-the-box functionality to detect data drift. However, it emphasizes collaborations with other specialized tools and frameworks, giving users the ability to integrate additional data drift monitoring functionalities into their machine learning workflows."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3a85d010-e8c4-4a29-a3dd-330376caf110",
+          "explanation": "It is not possible to orchestrate extensive pipelines with Weights and Biases; this requires the use of a complementary tool such as MLflow. While Weights and Biases excels at experiment management and visualization, integrating MLflow is a strategic approach to end- to support end-to-end machine learning workflows with comprehensive pipeline orchestration."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3bb6617b-88f2-48a3-b235-381e8edfd3d9",
+          "explanation": "Weights and Biases does not have built-in functionality to train and test multiple machine learning models with one button."
+        }
+      ],
+      "good_compatible": [
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "74085608-b0db-4f28-b1cf-ff83f87fb07c",
+          "explanation": "Weights and Biases is versatile and can be used both on-premise and in the cloud, giving users flexibility as they implement their machine learning workflows."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "963aaa51-8a46-4d4e-9808-d25ea810560c",
+          "explanation": "It is possible to integrate Weights & Biases (w&b) with Databricks by installing Weights & Biases in a Databricks notebook. See the <a href=\"https://docs.wandb.ai/guides /integrations/databricks\" target=\"_blank\">link</a> for more details."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "ee245bf1-0447-4460-beb0-26ce8987a59a",
+          "explanation": "It is possible to run Weights & Biases on AWS. For more information about integrating Weights & Biases with AWS, see <a href=\"https://wandb.ai/site/resources /partners/aws\" target=\"_blank\">link</a> consult. "
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "03c4d074-2773-41cd-962a-892d13882ef4",
+          "explanation": "It is possible to run Weights & Biases on Azure. See the <a href=\"https://docs.wandb.ai/guides/hosting/how-to-guides/azure-tf\" target=\"_blank\">link</a> for more information."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "b33b4738-05e9-42a9-8680-78a15ff65b0a",
+          "explanation": "It is possible to run Weights & Biases on Azure. See the <a href=https://wandb.ai/wandb_fc/articles/reports/GCP-with-Weights-Biases--Vmlldzo1NDc2MjMx\" target =\"_blank\">link</a> for more information."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "af017d7a-6e66-467a-87ad-1765a07563f3",
+          "explanation": "Containerization in Kubernetes makes it easy to install and use Weights and Biases."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "8b084d94-059d-4443-ae7d-d8f46d2e3e52",
+          "explanation": "Weights and Biases is an excellent starting point for experimenting with machine learning because it can be applied both on-premise and across multiple computers, allowing for flexibility and scalability."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "c45c0a87-dfbc-428f-93a2-825a0ab9ca51",
+          "explanation": "Weights and Biases is a specialized platform specifically focused on MLOps, providing a comprehensive set of tools and functionalities to streamline and optimize the end-to-end process of machine learning operations."
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "37aff572-f1a8-4401-ac52-51183844c06c",
+          "explanation": "Weights and Biases is versatile and can be used both on-premise and in the cloud, giving users flexibility as they implement their machine learning workflows."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "6fc847a4-d0b1-4bd4-aa5d-5119e0df65e3",
+          "explanation": "Weights and Biases is a highly effective platform for tracking and managing experiments, excelling not only at logging model performance, but also at providing deep insights and visualizations that facilitate the analysis of experiment results, allowing it is a valuable asset for optimizing machine learning workflows."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "83b528f4-3ea9-427e-9ce5-772685655d43",
+          "explanation": "It is possible to detect model drift in production through a comprehensive dashboard in Weights and Biases. Detailed information about monitoring model drift in production is available in the <a href=\"https://docs. wandb.ai/guides/weave/prod-mon\" target=\"_blank\">link</a> ."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "7a8606ca-dac3-497d-ae7e-73b6643aae4e",
+          "explanation": "Weights and Biases provides a tool called Traces, which incorporates Large Language Model Operations (LLMOps). See the <a href=\"https://wandb.ai/site/traces\" target=\" _blank\">link</a> for more information."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "265f2953-f37c-4c0b-8f61-e2a15118291e",
+          "explanation": "It is possible to track versions of data with Weights and Biases through the functionality called Artifacts. This feature provides users with a structured and traceable way to store and manage different versions of data, contributing to a accurate and reproducible experimentation process. See the <a href=\"https://wandb.ai/site/artifacts\" target=\"_blank\">link</a> for more details."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c8533619-431e-48cf-b7b3-5ff5f65263d1",
+          "explanation": "\"Weights and Biases provides a powerful tool called Sweeps, which allows users to automatically determine the optimal hyperparameters. This functionality streamlines the process of hyperparameter tuning, making it easy to discover the best configurations for improved model performance. See the <a href=\"https://wandb.ai/site/sweeps\" target=\"_blank\">link</a> for more information."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3e6a8487-1793-4062-aee3-271c6e435818",
+          "explanation": "It is possible to publish trained models with Weights and Biases. This functionality makes it easy to share results and models, which promotes collaboration between team members and stakeholders."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "629c3eda-64d2-4768-a26d-e5a901c4e170",
+          "explanation": "It is possible to annotate data and photos with a tool called Prodigy. See the <a href=\"https://wandb.ai/kshen/prodigy/reports/Visualizing-Prodigy-Datasets-Using- WB-Tables--Vmlldzo5NDE2MTc\" target=\"_blank\">link</a> for more information."
+        },
+        {
+          "question_id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+          "answer_id": "7c9f2f59-d736-4f6e-aa05-d2b205d5b66d",
+          "explanation": "Compared to other data platforms on this list, Weights and Biases is easy to set up, allowing users to access its features quickly and effortlessly."
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "4a41cfb5-c413-48d1-bab7-7b2e320e09e3",
+          "explanation": "Weights and Biases is a semi-open source program, but companies are not allowed to host it on-premise for free. Please refer to the <a href=\"https://wandb.ai/site/pricing\" target=\"_blank\">link</a> for the pricing model."
+        },
+        {
+          "question_id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+          "answer_id": "80d91bdb-7cd4-4ab7-a8b3-7cb7d4f01332",
+          "explanation": "Compared to other data platforms on this list, Weights and Biases is easy to set up, allowing users to access its features quickly and effortlessly."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "f96feb5c-7f24-436e-aa35-70a170bccfd9",
+          "explanation": "It is possible to annotate data and photos with a tool called Prodigy. See the <a href=\"https://wandb.ai/kshen/prodigy/reports/Visualizing-Prodigy-Datasets-Using- WB-Tables--Vmlldzo5NDE2MTc\" target=\"_blank\">link</a> for more information."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "6c468e8d-a48b-4e5b-ba9c-9042d82d6ff9",
+          "explanation": "It is possible to annotate data and photos with a tool called Prodigy. See the <a href=\"https://wandb.ai/kshen/prodigy/reports/Visualizing-Prodigy-Datasets-Using- WB-Tables--Vmlldzo5NDE2MTc\" target=\"_blank\">link</a> for more information."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "1f3396cf-8727-43c8-912d-0911517dc894",
+          "explanation": "It is possible to use Weights & Biases on most cloud platforms as their code is publicly available. Please note that Weights & Biases must be purchased to use."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "3e29d8d1-aef4-45a9-9728-606880731d87",
+          "explanation": "Weights & Biases promotes collaboration through features such as sharing experiments and results with team members, adding comments and notes to specific runs, and facilitating discussions through saved comments. However, it lacks direct capabilities for real-time collaboration on shared projects, such as simultaneous editing of documents. Role-Based Access Control (RBAC) is possible in Weights & Biases, allowing administrators to assign different permissions to team members based on their roles. The system is suitable for teams of any size, but can are especially useful for teams of 5 or more people due to the need for coordinated collaboration and management of projects."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "7ca2debe-b701-4e89-958d-6d3cff385de0",
+          "explanation": "Weights & Biases promotes collaboration through features such as sharing experiments and results with team members, adding comments and notes to specific runs, and facilitating discussions through saved comments. However, it lacks direct capabilities for real-time collaboration on shared projects, such as simultaneous editing of documents. Role-Based Access Control (RBAC) is possible in Weights & Biases, allowing administrators to assign different permissions to team members based on their roles. The system is suitable for teams of any size, but can are especially useful for teams of 5 or more people due to the need for coordinated collaboration and management of projects."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "6687720c-ef4d-4663-8e79-a98694bb10d9",
+          "explanation": "Weights & Biases promotes collaboration through features such as sharing experiments and results with team members, adding comments and notes to specific runs, and facilitating discussions through saved comments. However, it lacks direct capabilities for real-time collaboration on shared projects, such as simultaneous editing of documents. Role-Based Access Control (RBAC) is possible in Weights & Biases, allowing administrators to assign different permissions to team members based on their roles. The system is suitable for teams of any size, but can are especially useful for teams of 5 or more people due to the need for coordinated collaboration and management of projects."
+        }
+      ]
+    },
+    {
+      "id": "eeb904f2-67d4-40ea-a992-f09f5a2d1358",
+      "title": "MLflow",
+      "description": "MLflow is an open-source platform for managing experiments and pipelines of machine learning models. It provides tools for experiment tracking, organizing code, reproducing models, and collaborating within teams. MLflow enables users allows you to easily record experiments, compare models, manage model versions, and deploy them seamlessly into production, resulting in more streamlined and reproducible machine learning workflows. MLflow is completely open-source and can run on virtually any machine and cloud provider MLFlow is managed by Databricks. If you choose MLflow you should be careful that the Databricks version of MLflow offers more functionalities than the open source version. Many cloud providers use MLflow underwater, which is a testament to how versatile it can be.",
+      "link": "https://mlflow.org/",
+      "img_link": "mlflow_logo.png",
+      "bad_compatible": [
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "963aaa51-8a46-4d4e-9808-d25ea810560c",
+          "explanation": "If you are already using Databricks, managing a separate MLflow instance is unnecessary. Databricks manages its own version of MLflow with additional functionality, providing an integrated and seamless experience for managing machine learning workflows within the Databricks platform."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "8be91de1-04e3-4415-91f9-9f31ce1a6ab8",
+          "explanation": "It is important to note that MLflow is not designed to perform ETL operations. Such tasks require additional tooling outside of MLflow. MLflow focuses primarily on managing machine learning workflows, experiments, and models, while ETL functionality is supported by specialized tools."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "77900f70-1a5b-4d1a-a7e9-561e80027e28",
+          "explanation": "It is important to note that MLflow is not designed for performing DataOps. Such tasks require additional tooling outside of MLflow. MLflow focuses primarily on managing machine learning workflows, experiments, and models, while ETL functionality is supported by specialized tools."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "e9000130-1d1a-4898-a1ce-ef434c8ec110",
+          "explanation": "To gain deep insights into your business performance, it is not possible to use MLflow alone; this requires additional tooling outside of MLflow. MLflow is primarily focused on managing machine learning workflows and experiments, while more comprehensive business insights are often gained through integration with specific business intelligence and analytics tools."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c21f0ead-9e20-4823-8875-d61a9d7542dd",
+          "explanation": "It is important to note that in MLflow it is not possible to detect data drift automatically. Detecting data drift is usually handled by specialized tools and methods outside of MLflow."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "83b528f4-3ea9-427e-9ce5-772685655d43",
+          "explanation": "It is important to note that in MLflow it is not possible to detect model drift automatically. Detecting model drift is usually handled by specialized tools and methods outside of MLflow."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "265f2953-f37c-4c0b-8f61-e2a15118291e",
+          "explanation": "It is not possible to have version control on your data within MLflow; this requires the addition of an additional tool such as Data Version Control (DVC). DVC provides specific functionalities for managing versions and tracking changes to datasets , allowing for accurate and auditable data versioning."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c8533619-431e-48cf-b7b3-5ff5f65263d1",
+          "explanation": "It is important to note that MLflow cannot automatically find optimal hyperparameters; this requires manual tuning and experimentation. However, MLflow offers integration with hyperparameter tuning libraries such as Optuna and Hyperopt, allowing users to manually perform optimization processes to find the best hyperparameters to identify."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3bb6617b-88f2-48a3-b235-381e8edfd3d9",
+          "explanation": "MLflow does not have a built-in ability to train and test multiple machine learning models with a single button. Such automation of experiments requires additional scripting and tooling, such as the use of hyperparameter tuning libraries in combination with MLflow to achieve efficient and realize automated model training."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "629c3eda-64d2-4768-a26d-e5a901c4e170",
+          "explanation": "MLflow is not designed for annotating data or photos. For tasks such as annotation, you will need to use other specialized tools specifically designed for data annotation, such as Labelbox or similar tools."
+        }
+      ],
+      "good_compatible": [
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "af017d7a-6e66-467a-87ad-1765a07563f3",
+          "explanation": "Containerization in Kubernetes makes it easy to use MLflow, helping to streamline deployment and management of machine learning workflows. This approach provides flexibility and scalability when running MLflow in different environments."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "ee245bf1-0447-4460-beb0-26ce8987a59a",
+          "explanation": "AWS offers excellent capabilities for integrating MLflow, often in combination with their existing MLOps platform SageMaker. This allows users to benefit from a comprehensive environment for managing and scaling their machine learning workflows on the AWS cloud platform. "
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "03c4d074-2773-41cd-962a-892d13882ef4",
+          "explanation": "Azure offers excellent capabilities to integrate MLflow, often in combination with their existing MLOps platform Azure ML. This provides users with a powerful and integrated environment for managing and scaling machine learning workflows on the Azure cloud platform."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "b33b4738-05e9-42a9-8680-78a15ff65b0a",
+          "explanation": "GCP offers excellent capabilities to integrate MLflow, often in combination with their existing MLOps platform Vertex AI. This allows users to benefit from an integrated and scalable environment for managing and optimizing machine learning workflows on the Google Cloud platform."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "8b084d94-059d-4443-ae7d-d8f46d2e3e52",
+          "explanation": "It's easy to start experimenting if you're not already using a cloud platform. MLflow can run on a computer or server and isn't dependent on a specific cloud provider, making it a flexible choice. This makes it makes it possible for users to start on-premise and later, if desired, move to a cloud-based environment."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "c45c0a87-dfbc-428f-93a2-825a0ab9ca51",
+          "explanation": "MLflow was built for MLOps, and has been integrated with most data platforms in a custom form. This integration allows users to effectively manage and optimize machine learning workflows across diverse data and cloud environments."
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "37aff572-f1a8-4401-ac52-51183844c06c",
+          "explanation": "MLflow offers excellent integration with all major cloud providers, giving users flexibility in deploying and managing machine learning workflows across cloud environments. This versatile support allows them to take full advantage of the specific capabilities and services that each cloud provider offers."
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "74085608-b0db-4f28-b1cf-ff83f87fb07c",
+          "explanation": "MLflow is extremely user-friendly and easy to install at a local level, providing a seamless experience for users who want to experiment and develop on-premise within their machine learning projects. This accessibility contributes to a quick start and efficient use of MLflow functionalities."
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "0974c882-d9b9-4c9d-a1db-05c0fee82523",
+          "explanation": "MLflow is not only free and open source, but also offers a transparent and active community through the <a href=\"https://github.com/mlflow/mlflow\" target=\"_blank\"> link</a>, giving users access to ongoing updates, support and contributions from the wider community."
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "4a41cfb5-c413-48d1-bab7-7b2e320e09e3",
+          "explanation": "MLflow is not only free and open source, but also offers a transparent and active community through the <a href=\"https://github.com/mlflow/mlflow\" target=\"_blank\"> link</a>, giving users access to ongoing updates, support and contributions from the wider community."
+        },
+        {
+          "question_id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+          "answer_id": "7c9f2f59-d736-4f6e-aa05-d2b205d5b66d",
+          "explanation": "MLflow is a compact package with a focus on simplicity, and does not offer extensive features for DataOps or ETL. This makes it easy to install and ideal for users who want to quickly experiment within their machine learning projects."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "6fc847a4-d0b1-4bd4-aa5d-5119e0df65e3",
+          "explanation": "MLflow makes it easy to view and manage your experiments. The intuitive user interface makes it easy to track experiment results, manage models, and understand the performance of different iterations of your machine learning projects."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "7a8606ca-dac3-497d-ae7e-73b6643aae4e",
+          "explanation": "MLflow has developed functionalities specifically for creating and maintaining large language and generative models. See <a href=\"https://www.databricks.com/blog/announcing-mlflow-24-llmops-tools -robust-model-evaluation\" target=\"_blank\">link</a>."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3a85d010-e8c4-4a29-a3dd-330376caf110",
+          "explanation": "MLflow is ideal for orchestrating MLOps pipelines. However, if you want to do more with DataOps, such as managing end-to-end data workflows, using tools such as Apache Airflow can be a valuable addition to your toolkit. Together they provide an integrated solution for effectively managing both machine learning and data operations."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3e6a8487-1793-4062-aee3-271c6e435818",
+          "explanation": "It is possible to publish models with MLflow and view statistics about them. MLflow provides features for logging and tracking experiment results, giving users insight into the performance of trained models and the ability to Share and view via the MLflow Tracking UI."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "1f3396cf-8727-43c8-912d-0911517dc894",
+          "explanation": "MLflow is open source and therefore not dependent on where it is installed. Please check carefully whether it is possible to install it in your current cloud platform."
+        },
+        {
+          "question_id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+          "answer_id": "80d91bdb-7cd4-4ab7-a8b3-7cb7d4f01332",
+          "explanation": "MLflow is a compact package with a focus on simplicity, and does not offer extensive features for DataOps or ETL. This makes it easy to install and ideal for users who want to quickly experiment within their machine learning projects."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "f96feb5c-7f24-436e-aa35-70a170bccfd9",
+          "explanation": "MLflow is not designed for annotating data or photos. For tasks such as annotation, you will need to use other specialized tools specifically designed for data annotation, such as Labelbox or similar tools."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "6c468e8d-a48b-4e5b-ba9c-9042d82d6ff9",
+          "explanation": "MLflow is not designed for annotating data or photos. For tasks such as annotation, you will need to use other specialized tools specifically designed for data annotation, such as Labelbox or similar tools."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "3e29d8d1-aef4-45a9-9728-606880731d87",
+          "explanation": "MLflow promotes team collaboration through features such as experiment tracking, model versioning, and model deployment. Experiment tracking allows you to document experiments and share results, while model versioning facilitates model version management. However, MLflow lacks built-in support for Role-Based Access Control (RBAC), which can hinder team collaboration due to the lack of granular access control.\n\nAlthough RBAC is not natively supported, teams of 1, 5, or more than 10 people can still use MLflow effectively For teams of 1 person, MLflow provides a convenient way to manage experiments and track models. For teams of 5 or more, additional access control measures beyond MLflow may be required to ensure secure collaboration However, the lack of built-in RBAC functionality may be limiting and you may need to look for additional tools or solutions that provide this."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "7ca2debe-b701-4e89-958d-6d3cff385de0",
+          "explanation": "MLflow promotes team collaboration through features such as experiment tracking, model versioning, and model deployment. Experiment tracking allows you to document experiments and share results, while model versioning facilitates model version management. However, MLflow lacks built-in support for Role-Based Access Control (RBAC), which can hinder team collaboration due to the lack of granular access control.\n\nAlthough RBAC is not natively supported, teams of 1, 5, or more than 10 people can still use MLflow effectively For teams of 1 person, MLflow provides a convenient way to manage experiments and track models. For teams of 5 or more, additional access control measures beyond MLflow may be required to ensure secure collaboration However, the lack of built-in RBAC functionality may be limiting and you may need to look for additional tools or solutions that provide this."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "6687720c-ef4d-4663-8e79-a98694bb10d9",
+          "explanation": "MLflow promotes team collaboration through features such as experiment tracking, model versioning, and model deployment. Experiment tracking allows you to document experiments and share results, while model versioning facilitates model version management. However, MLflow lacks built-in support for Role-Based Access Control (RBAC), which can hinder team collaboration due to the lack of granular access control.\n\nAlthough RBAC is not natively supported, teams of 1, 5, or more than 10 people can still use MLflow effectively For teams of 1 person, MLflow provides a convenient way to manage experiments and track models. For teams of 5 or more, additional access control measures beyond MLflow may be required to ensure secure collaboration However, the lack of built-in RBAC functionality may be limiting and you may need to look for additional tools or solutions that provide this."
+        }
+      ]
+    },
+    {
+      "id": "340dcd09-44de-4ff6-bddf-0503b575f5cc",
+      "title": "ClearML",
+      "description": "ClearML is an end-to-end platform for managing machine learning workflows. It provides powerful tools for experiment tracking, automation, model versioning, and collaboration. With features for tracking experiments, visualizing results, and optimizing models, ClearML enables users to work more efficiently and gain better insight into their machine learning projects, allowing teams to collaborate more effectively and move models to production faster.",
+      "link": "https://clear.ml/",
+      "img_link": "clearml_logo.png",
+      "bad_compatible": [
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "bcd62443-7827-44cb-88bb-b9fd5a3651ae",
+          "explanation": "dwa"
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "963aaa51-8a46-4d4e-9808-d25ea810560c",
+          "explanation": "It is not recommended to use Databricks with ClearML. Databricks uses its own variant of MLflow, which is almost identical in functionality to ClearML. Using ClearML could cause duplication of functionalities and possibly conflict with the built-in MLflow functionalities in Databricks."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "8be91de1-04e3-4415-91f9-9f31ce1a6ab8",
+          "explanation": "ClearML is optimized for Machine Learning Operations (MLOps) and does not currently support Extract, Transform, Load (ETL) operations. For such tasks, it is recommended to use a specific tool designed for ETL processes. "
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "e9000130-1d1a-4898-a1ce-ef434c8ec110",
+          "explanation": "ClearML is optimized for Machine Learning Operations (MLOps) and does not currently support Business Intelligence. For such tasks, it is recommended to use a specific tool designed for BI processes."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3bb6617b-88f2-48a3-b235-381e8edfd3d9",
+          "explanation": "ClearML does not currently provide an out-of-the-box ability to train and test multiple machine learning models at the touch of a button. For these types of features, you can use additional automation tools or scripts to tailor your workflow to your specific needs."
+        }
+      ],
+      "good_compatible": [
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "ee245bf1-0447-4460-beb0-26ce8987a59a",
+          "explanation": "ClearML is open source and can therefore be easily integrated into your current AWS environment. This provides flexibility and the ability to tailor ClearML to the specific needs of your AWS-based machine learning workflows."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "03c4d074-2773-41cd-962a-892d13882ef4",
+          "explanation": "ClearML is open source so it can be easily integrated into your current Azure environment. This gives you the flexibility to tailor ClearML to the specific needs of your Azure-based machine learning workflows."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "b33b4738-05e9-42a9-8680-78a15ff65b0a",
+          "explanation": "ClearML is open source so it can be easily integrated into your current Google Cloud Platform (GCP) environment. This openness provides flexibility and customizability to integrate ClearML into your existing GCP-based machine learning workflows."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "af017d7a-6e66-467a-87ad-1765a07563f3",
+          "explanation": "ClearML is open source and can therefore be easily integrated into your current Kubernetes environment. This flexibility makes it possible to tailor ClearML to the specific needs of your Kubernetes-based machine learning workflows."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "1f3396cf-8727-43c8-912d-0911517dc894",
+          "explanation": "ClearML is open source so it can be easily integrated into your current environment. This openness provides flexibility and customizability to integrate ClearML into your existing machine learning workflows."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "8b084d94-059d-4443-ae7d-d8f46d2e3e52",
+          "explanation": "ClearML can easily be run on-premise on a computer to start experimenting. Moreover, it is also easy to host ClearML Flow on the cloud, allowing multiple data scientists to easily access the functionalities and experiments within their local development environment."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "c45c0a87-dfbc-428f-93a2-825a0ab9ca51",
+          "explanation": "ClearML is an advanced platform specifically designed to streamline Machine Learning Operations (MLOps)."
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "37aff572-f1a8-4401-ac52-51183844c06c",
+          "explanation": "ClearML is an open-source platform, so it is not tied to a specific supplier. Although ClearML can operate independently, some suppliers offer integration options to, for example, process data better."
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "74085608-b0db-4f28-b1cf-ff83f87fb07c",
+          "explanation": "ClearML is an open source platform that can easily be installed on-premise on your own system."
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "0974c882-d9b9-4c9d-a1db-05c0fee82523",
+          "explanation": "ClearML is an open source platform, meaning it's free to use if you choose to host it yourself."
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "4a41cfb5-c413-48d1-bab7-7b2e320e09e3",
+          "explanation": "ClearML is open source and therefore free to use. For additional functionality and enhanced support, it is possible to purchase virtual private cloud (VPC) or on-premises servers."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "6fc847a4-d0b1-4bd4-aa5d-5119e0df65e3",
+          "explanation": "ClearML has excellent experiment tracking capabilities."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c21f0ead-9e20-4823-8875-d61a9d7542dd",
+          "explanation": "It is possible to detect data drift in ClearML using additional dashboarding. More information about this can be found at the following <a href=\"https://clear.ml/blog/building-an- mlops-infrastructure-on-openshift-guest-blogpost\" target=\"_blank\">link</a>.\n"
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "83b528f4-3ea9-427e-9ce5-772685655d43",
+          "explanation": " It is possible to detect drift in models in ClearMl using additional dashboarding. See <a href=\"https://clear.ml/blog/building-an-mlops-infrastructure-on-openshift -guest-blogpost\" target=\"_blank\">link</a>.\n"
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "7a8606ca-dac3-497d-ae7e-73b6643aae4e",
+          "explanation": "ClearML has developed functionalities specifically for creating and maintaining large language and generative models. More information about this is available here <a href=\"https://clear.ml/docs/latest/docs/\" target=\"_blank\">link</a>.\n"
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "265f2953-f37c-4c0b-8f61-e2a15118291e",
+          "explanation": "ClearML provides the ability to track different versions of data using hyperdatasets. More information about this is available at the following <a href=\"https://clear.ml/docs/latest/docs/ hyperdatasets/dataset/\" target=\"_blank\">link</a>.\n"
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c8533619-431e-48cf-b7b3-5ff5f65263d1",
+          "explanation": "With ClearML you have the ability to perform optimization tasks to automatically find optimal hyperparameters. Please refer to the following <a href=\"https://clear.ml/docs/latest/docs/fundamentals/hpo /\" target=\"_blank\">link</a> for more information.\n"
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3a85d010-e8c4-4a29-a3dd-330376caf110",
+          "explanation": "It is possible to orchestrate MLOps pipelines with ClearML. ClearML provides capabilities to manage and automate end-to-end machine learning workflows, including setting up MLOps pipelines. It allows you to perform tasks such as data preparation, organize and manage model training, evaluation, and deployment in an integrated and automated workflow."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3e6a8487-1793-4062-aee3-271c6e435818",
+          "explanation": "It is possible to publish models in ClearML. Published models can be called by sending specific API calls to them. ClearML provides extensive statistics on the usage and performance of the published models,"
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "629c3eda-64d2-4768-a26d-e5a901c4e170",
+          "explanation": "Using the 'annotations' tab in ClearML you can easily annotate your data or photos. For more detailed information, please visit the following <a href=\"https://clear.ml/docs/ latest/docs/hyperdatasets/webapp/webapp_annotator/\" target=\"_blank\">link</a> consult. "
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "77900f70-1a5b-4d1a-a7e9-561e80027e28",
+          "explanation": "ClearML provides robust data ops functionality, streamlining and improving the entire data operations process. This comprehensive set of features within ClearML includes data management, versioning, data lineage tracking, and collaborative workflows, allowing data scientists and machine learning teams to manage their data sources can efficiently manage and leverage throughout the entire life cycle of their projects."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "f96feb5c-7f24-436e-aa35-70a170bccfd9",
+          "explanation": "Using the 'annotations' tab in ClearML you can easily annotate your data or photos. For more detailed information, please visit the following <a href=\"https://clear.ml/docs/ latest/docs/hyperdatasets/webapp/webapp_annotator/\" target=\"_blank\">link</a> consult. "
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "6c468e8d-a48b-4e5b-ba9c-9042d82d6ff9",
+          "explanation": "Using the 'annotations' tab in ClearML you can easily annotate your data or photos. For more detailed information, please visit the following <a href=\"https://clear.ml/docs/ latest/docs/hyperdatasets/webapp/webapp_annotator/\" target=\"_blank\">link</a> consult. "
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "3e29d8d1-aef4-45a9-9728-606880731d87",
+          "explanation": "ClearML promotes collaboration by allowing sharing, tracking, and reproduction of experiments, making it easy for team members to collaborate on projects. However, it lacks direct support for real-time collaboration, such as concurrent editing of scripts or notebooks. Role-Based Access Control (RBAC) is available, allowing access control based on roles and permissions. ClearML is suitable for teams of 1, 5 or more than 10 people, depending on the needs of the team and the scale of the project. ."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "7ca2debe-b701-4e89-958d-6d3cff385de0",
+          "explanation": "ClearML promotes collaboration by allowing sharing, tracking, and reproduction of experiments, making it easy for team members to collaborate on projects. However, it lacks direct support for real-time collaboration, such as concurrent editing of scripts or notebooks. Role-Based Access Control (RBAC) is available, allowing access control based on roles and permissions. ClearML is suitable for teams of 1, 5 or more than 10 people, depending on the needs of the team and the scale of the project. ."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "6687720c-ef4d-4663-8e79-a98694bb10d9",
+          "explanation": "ClearML promotes collaboration by allowing sharing, tracking, and reproduction of experiments, making it easy for team members to collaborate on projects. However, it lacks direct support for real-time collaboration, such as concurrent editing of scripts or notebooks. Role-Based Access Control (RBAC) is available, allowing access control based on roles and permissions. ClearML is suitable for teams of 1, 5 or more than 10 people, depending on the needs of the team and the scale of the project. ."
+        }
+      ]
+    },
+    {
+      "id": "f98aea21-f356-40ca-b064-1995ad04f720",
+      "title": "DagsHub",
+      "description": "DAGsHub is an integrated platform that simplifies the process of managing and versioning machine learning models, datasets, and code. With its easy-to-use interface and powerful features, DAGsHub facilitates collaboration among data scientists, allowing them to share their work and track changes in real time.",
+      "link": "https://dagshub.com/",
+      "img_link": "dagshub_logo.png",
+      "bad_compatible": [
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "963aaa51-8a46-4d4e-9808-d25ea810560c",
+          "explanation": "Dagshub currently has no direct ability to leverage data made available in Databricks; however, it does support the use of S3-compatible storage as an alternative method of accessing data in Databricks. The platform itself cannot be hosted on Databricks, but offers the choice of being installed on-premise or in Dagshub's cloud, albeit at a specific price."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "ee245bf1-0447-4460-beb0-26ce8987a59a",
+          "explanation": "Dagshub has the ability to use data made available in AWS, but the platform cannot run on AWS. Instead, Dagshub offers the option to run on-premise or in the cloud of Dagshub itself be installed, of course at a certain price."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "03c4d074-2773-41cd-962a-892d13882ef4",
+          "explanation": "Dagshub has the option to use data made available in Azure, but the platform cannot run on Azure. Instead, Dagshub offers the option to use data on-premise or in the cloud of Dagshub itself be installed, of course at a certain price."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "b33b4738-05e9-42a9-8680-78a15ff65b0a",
+          "explanation": "Dagshub has the ability to use data made available in GCP, but the platform cannot run on GCP. Instead, Dagshub offers the option to use data on-premise or in the cloud of Dagshub itself be installed, of course at a certain price."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "af017d7a-6e66-467a-87ad-1765a07563f3",
+          "explanation": "Dagshub has the ability to use data made available in kubernetes, but the platform cannot run on kubernetes. Instead, Dagshub offers the option to run on-premise or in the cloud of Dagshub itself be installed, of course at a certain price."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "8be91de1-04e3-4415-91f9-9f31ce1a6ab8",
+          "explanation": "Within Dagshub it is not possible to perform ETL operations, as Dagshub is designed exclusively for ML Ops functionalities."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "77900f70-1a5b-4d1a-a7e9-561e80027e28",
+          "explanation": "Within Dagshub it is not possible to perform Data Ops operations, as Dagshub is designed exclusively for ML Ops functionalities."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "e9000130-1d1a-4898-a1ce-ef434c8ec110",
+          "explanation": "Within Dagshub it is not possible to perform Business Intelligence operations, as Dagshub is exclusively designed for ML Ops functionalities."
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "0974c882-d9b9-4c9d-a1db-05c0fee82523",
+          "explanation": "Dagshub, as a non-open-source platform, is available exclusively to companies willing to pay for it."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c21f0ead-9e20-4823-8875-d61a9d7542dd",
+          "explanation": "Dagshub, while a powerful platform for Machine Learning Operations, does not currently support automatic detection of data drift, leaving users responsible for monitoring any changes in the datasets."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "83b528f4-3ea9-427e-9ce5-772685655d43",
+          "explanation": "Dagshub, while a powerful platform for Machine Learning Operations, does not currently provide built-in functionality for automatically detecting model drift, leaving users responsible for proactively monitoring changes in model performance over time ."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "c8533619-431e-48cf-b7b3-5ff5f65263d1",
+          "explanation": "Automatically finding optimal hyperparameters is not currently supported by Dagshub and would require writing additional code to implement it."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3bb6617b-88f2-48a3-b235-381e8edfd3d9",
+          "explanation": "To simultaneously train and test multiple machine learning models at the touch of a button, there is currently no built-in functionality available in Dagshub. To realize this, it would be necessary to write additional code."
+        },
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "1f3396cf-8727-43c8-912d-0911517dc894",
+          "explanation": "Dagshub has the ability to use data made available from various cloud platforms, but it is not open source and therefore cannot run on other cloud platforms. Instead, Dagshub offers the option to run on-premise or in the Dagshub cloud itself must be installed, of course at a certain price."
+        }
+      ],
+      "good_compatible": [
+        {
+          "question_id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+          "answer_id": "8b084d94-059d-4443-ae7d-d8f46d2e3e52",
+          "explanation": "Dagshub can be considered the equivalent of GitHub for machine learning, keeping the existing functionalities of GitHub and supplementing them with specific capabilities and functionalities focused on machine learning. Especially for companies that are not yet active on a cloud platform, Dagshub is an excellent starting choice because of the simplicity with which it can be started and where collaboration is central."
+        },
+        {
+          "question_id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+          "answer_id": "c45c0a87-dfbc-428f-93a2-825a0ab9ca51",
+          "explanation": "Dagshub provides an alternative platform to GitHub specifically tailored for machine learning. The user interface makes it easy to annotate data, set up experiments, and publish models."
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "37aff572-f1a8-4401-ac52-51183844c06c",
+          "explanation": "Dagshub is a paid tool that gives companies the flexibility to operate in the cloud, on a Virtual Private Cloud (VPC), or on-premise."
+        },
+        {
+          "question_id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+          "answer_id": "74085608-b0db-4f28-b1cf-ff83f87fb07c",
+          "explanation": "Dagshub is a paid tool that gives companies the flexibility to operate in the cloud, on a Virtual Private Cloud (VPC), or on-premise."
+        },
+        {
+          "question_id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+          "answer_id": "7c9f2f59-d736-4f6e-aa05-d2b205d5b66d",
+          "explanation": "If your company is already familiar with platforms like GitHub or GitLab, the transition to Dagshub will be seamless. While using Dagshub is similar to GitHub or GitLab, it does require some knowledge of data science and machine learning. The platform provides an advanced environment for managing and sharing data science projects, making it essential to be familiar with the basics of these disciplines to make the most of them."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "6fc847a4-d0b1-4bd4-aa5d-5119e0df65e3",
+          "explanation": "Dagshub also offers repositories similar to GitHub. What sets Dagshub apart is the introduction of a dedicated tab for experiments, where users can view experiments and easily create new experiments."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "7a8606ca-dac3-497d-ae7e-73b6643aae4e",
+          "explanation": "Dagshub has developed functionalities specifically for creating and maintaining large language and generative models. For more information, see: <a href=\"https://www.databricks.com/blog/announcing-mlflow- 24-llmops-tools-robust-model-evaluation\" target=\"_blank\">link</a>.\n"
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "265f2953-f37c-4c0b-8f61-e2a15118291e",
+          "explanation": "Dagshub offers an excellent data versioning tool called Dagshub DDA, and in addition it is possible to use DVC (Data Version Control). For more information, see this <a href=\".https://dagshub .com/docs/workshops/dvc_and_dda/\" target=\"_blank\">link</a>."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3a85d010-e8c4-4a29-a3dd-330376caf110",
+          "explanation": "Dagshub provides tooling called Dagshub pipelines which makes it possible to perform basic data operations. Integration with MLflow makes it possible to use MLflow's orchestration tooling."
+        },
+        {
+          "question_id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+          "answer_id": "3e6a8487-1793-4062-aee3-271c6e435818",
+          "explanation": "Dagshub provides the ability to easily publish your machine learning models, making them accessible via API calls for seamless integration and deployment across applications."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "629c3eda-64d2-4768-a26d-e5a901c4e170",
+          "explanation": "Dagshub introduces an annotation tab, allowing users to effortlessly add annotations to both data and photos, making the annotation process efficient and easy to use."
+        },
+        {
+          "question_id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+          "answer_id": "4a41cfb5-c413-48d1-bab7-7b2e320e09e3",
+          "explanation": "Dagshub, as a non-open-source platform, is available exclusively to companies willing to pay for it."
+        },
+        {
+          "question_id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+          "answer_id": "80d91bdb-7cd4-4ab7-a8b3-7cb7d4f01332",
+          "explanation": "If your company is already familiar with platforms like GitHub or GitLab, the transition to Dagshub will be seamless. While using Dagshub is similar to GitHub or GitLab, it does require some knowledge of data science and machine learning. The platform provides an advanced environment for managing and sharing data science projects, making it essential to be familiar with the basics of these disciplines to make the most of them."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "f96feb5c-7f24-436e-aa35-70a170bccfd9",
+          "explanation": "Dagshub introduces an annotation tab, allowing users to effortlessly add annotations to both data and photos, making the annotation process efficient and easy to use."
+        },
+        {
+          "question_id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+          "answer_id": "6c468e8d-a48b-4e5b-ba9c-9042d82d6ff9",
+          "explanation": "Dagshub introduces an annotation tab, allowing users to effortlessly add annotations to both data and photos, making the annotation process efficient and easy to use."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "3e29d8d1-aef4-45a9-9728-606880731d87",
+          "explanation": "Dagshub promotes collaboration through real-time updates, project management tools, and integration with popular platforms such as GitHub and Slack. The platform supports Role-Based Access Control (RBAC), allowing administrators to assign specific access rights to users based on their roles. I would recommend Dagshub for teams of 5 or more people, where the need for structured collaboration and coordination is greater."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "7ca2debe-b701-4e89-958d-6d3cff385de0",
+          "explanation": "Dagshub promotes collaboration through real-time updates, project management tools, and integration with popular platforms such as GitHub and Slack. H The platform supports Role-Based Access Control (RBAC), allowing administrators to assign specific access rights to users based on of their roles. I would recommend Dagshub for teams of 5 or more people, where the need for structured collaboration and coordination is greater."
+        },
+        {
+          "question_id": "c8775160-e498-4292-a464-b45e222f5aa7",
+          "answer_id": "6687720c-ef4d-4663-8e79-a98694bb10d9",
+          "explanation": "Dagshub promotes collaboration through real-time updates, project management tools, and integration with popular platforms such as GitHub and Slack. The platform supports Role-Based Access Control (RBAC), allowing administrators to assign specific access rights to users based on their roles. I would recommend Dagshub for teams of 5 or more people, where the need for structured collaboration and coordination is greater."
+        }
+      ]
+    }
+  ]
+}

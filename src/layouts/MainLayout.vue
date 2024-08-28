@@ -12,6 +12,9 @@
         <q-toolbar-title v-if="!q.screen.lt.sm" class="absolute-center text-h5">
           AI-Platformwijzer
         </q-toolbar-title>
+        <div  style="position:absolute; right: 0">
+        <locale-switcher class="q-ma-md"/>
+        </div>
       </q-toolbar>
     </q-header>
 
@@ -52,11 +55,14 @@
 </template>
 
 <script>
-import { defineComponent, ref } from "vue";
+import { defineComponent, ref, watch } from "vue";
 import { useQuasar } from "quasar";
 import { useRouter, useRoute } from "vue-router";
+import { useI18n } from 'vue-i18n'
+import LocaleSwitcher from "components/LocaleSwitcher.vue";
 export default defineComponent({
   name: "MainLayout",
+  components: {LocaleSwitcher},
   setup() {
     const router = useRouter();
     const q = useQuasar();

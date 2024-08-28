@@ -1,0 +1,228 @@
+{
+"questions": [
+{
+"id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
+"question_text": "Are you active on any of the following cloud platforms?",
+"type": "single",
+"answers": [
+{
+"id": "963aaa51-8a46-4d4e-9808-d25ea810560c",
+"answer_text": "Databricks",
+"explanation_text": ""
+},
+{
+"id": "ee245bf1-0447-4460-beb0-26ce8987a59a",
+"answer_text": "AWS",
+"explanation_text": ""
+},
+{
+"id": "03c4d074-2773-41cd-962a-892d13882ef4",
+"answer_text": "Azure",
+"explanation_text": ""
+},
+{
+"id": "b33b4738-05e9-42a9-8680-78a15ff65b0a",
+"answer_text": "GCP (Google cloud platform)",
+"explanation_text": ""
+},
+{
+"id": "af017d7a-6e66-467a-87ad-1765a07563f3",
+"answer_text": "Hosted Kubernetes",
+"explanation_text": ""
+},
+{
+"id": "1f3396cf-8727-43c8-912d-0911517dc894",
+"answer_text": "Other",
+"explanation_text": "If you or your company are not using the cloud platform mentioned above, certain data platforms may not be able to integrate seamlessly."
+},
+{
+"id": "8b084d94-059d-4443-ae7d-d8f46d2e3e52",
+"answer_text": "I am not yet active on a cloud platform",
+"explanation_text": "If you or your company is not using a cloud platform, the upside can be that it retains full control over the infrastructure. However, on the downside, this can mean limited integration capabilities with cloud-based data platforms, which will impact can be on scalability and accessibility."
+}
+],
+"explanation_text": "If you or your company is already involved in specific cloud platforms, this may limit the flexibility of your choice regarding the use of data platforms."
+},
+{
+"id": "fea3fc01-144d-4f41-b99e-0f556f6da751",
+"question_text": "Which functionalities should be integrated into the data platform?",
+"type": "multi",
+"answers": [
+{
+"id": "8be91de1-04e3-4415-91f9-9f31ce1a6ab8",
+"answer_text": "ETL",
+"explanation_text": " ETL stands for Extract, Transform, Load, and it refers to the process of extracting, transforming, and loading data from different sources to a destination, such as a database, to make it usable and accessible for analytics. "
+},
+{
+"id": "c45c0a87-dfbc-428f-93a2-825a0ab9ca51",
+"answer_text": "MLOps",
+"explanation_text": "MLOps, or Machine Learning Operations, is a methodology aimed at integrating machine learning models into the development and operations process, to enable efficient deployment, monitoring, and maintenance of these models."
+},
+{
+"id": "77900f70-1a5b-4d1a-a7e9-561e80027e28",
+"answer_text": "DataOps",
+"explanation_text": "DataOps (short for data operations) is a data management practice that deals with building, testing, deploying and managing data products. It combines technologies and processes to improve data trust and time-to-use value of your company's data products."
+},
+{
+"id": "e9000130-1d1a-4898-a1ce-ef434c8ec110",
+"answer_text": "Business intelligence",
+"explanation_text": "Business Intelligence (BI) involves the process of collecting, analyzing and presenting business data to support organizations in making data-driven decisions."
+}
+],
+"explanation_text": "Data platforms offer different functionalities. A data platform is more focused on the development and use of machine learning models (MLOps). Other data platforms may have more of a focus on the real-time processing of large numbers of data ."
+},
+{
+"id": "cfae1bd1-1680-4ae2-9bb6-4531ca819589",
+"question_text": "Where should the data platform run?",
+"type": "single",
+"answers": [
+{
+"id": "37aff572-f1a8-4401-ac52-51183844c06c",
+"answer_text": "On the cloud",
+"explanation_text": "When the platform has to run on the cloud, for example on AWS, Azure or GCP, this means that the data is also stored and processed in the cloud. A possible disadvantage of using a data platform in the cloud is the ongoing costs, including subscription and usage costs, which may impact total usage costs in the long term. Nevertheless, the data is stored and processed securely online."
+},
+{
+"id": "74085608-b0db-4f28-b1cf-ff83f87fb07c",
+"answer_text": "On premise",
+"explanation_text": "If the data platform is to be deployed on-premise, this implies that you must have the necessary capabilities to perform demanding tasks such as machine learning, and that your data is stored and processed on-premise. This limits the available options, as some data platforms are only available online, which may influence the choice of a suitable data platform."
+}
+],
+"explanation_text": "It is important to consider where the data platform should run, as this influences the choice between on-premises, cloud or hybrid solutions, impacting cost, scalability and accessibility of the data platform."
+},
+{
+"id": "04f53c2a-e879-4343-adc2-4bd7774ac2cb",
+"question_text": "Should the tool used be free and/or open-source?",
+"type": "single",
+"answers": [
+{
+"id": "0974c882-d9b9-4c9d-a1db-05c0fee82523",
+"answer_text": "Yes, the tool must be free and/or open-source",
+"explanation_text": "Free tools usually don't offer official support and rely on communities and forums for help, which is important to consider when choosing a data platform."
+},
+{
+"id": "4a41cfb5-c413-48d1-bab7-7b2e320e09e3",
+"answer_text": "No, the tool can be paid and does not have to be open source ",
+"explanation_text": "Paid tools usually offer support and extra functionalities, unlike free options"
+}
+],
+"explanation_text": "It is important to consider whether the tool used should be free and/or open-source when choosing a data platform, as this directly impacts the overall cost, flexibility and independence of the technology used."
+},
+{
+"id": "9c5eeaa4-cc36-4895-98d8-4a2d30770612",
+"question_text": "Are you or does your company currently have a data engineer and are you willing to invest a significant amount of time to set up a data platform?",
+"type": "single",
+"answers": [
+{
+"id": "80d91bdb-7cd4-4ab7-a8b3-7cb7d4f01332",
+"answer_text": "Yes, the data platform must therefore be fully configurable to my wishes and advanced functionalities must be possible.",
+"explanation_text": "If you can take the time to implement data platforms, it becomes possible to opt for more advanced platforms that can be more accurately integrated into your existing environment."
+},
+{
+"id": "7c9f2f59-d736-4f6e-aa05-d2b205d5b66d",
+"answer_text": "No, the data platform must therefore remain easy to use and clear.",
+"explanation_text": " If you are not willing to invest significantly in a data platform, it is advisable to opt for a platform that is easy to configure, although this may come at the expense of some advanced functionalities."
+}
+],
+"explanation_text": "This question is asked to understand the availability of technical skills and willingness to invest time, as these are crucial factors when assessing the feasibility and implementation of a data platform within the company."
+},
+{
+"id": "193dd987-b3f2-4ef2-a9b8-a6a042d1b0f0",
+"question_text": "What kind of Machine learning functionality should be available in the data platform?",
+"type": "multi",
+"answers": [
+{
+"id": "6fc847a4-d0b1-4bd4-aa5d-5119e0df65e3",
+"answer_text": "Experiment tracking",
+"explanation_text": "Experiment tracking is the process of systematically tracking, organizing, and analyzing experimental data and results within a data project."
+},
+{
+"id": "c21f0ead-9e20-4823-8875-d61a9d7542dd",
+"answer_text": "Data Drift Tracking",
+"explanation_text": "Data drift tracking is the continuous monitoring and analysis of changes in the distribution of data to identify unwanted anomalies and inconsistencies in machine learning models."
+},
+{
+"id": "83b528f4-3ea9-427e-9ce5-772685655d43",
+"answer_text": "Model Drift Tracking",
+"explanation_text": "Model drift tracking is the continuous monitoring of performance deviations in machine learning models from the original training data to make timely adjustments and maintain accuracy."
+},
+{
+"id": "7a8606ca-dac3-497d-ae7e-73b6643aae4e",
+"answer_text": "Large Language Model Ops(LLMOps)",
+"explanation_text": "Large Language Model Ops (LLM Ops) is an approach that focuses on efficiently developing, deploying, and managing large language models to optimize performance and scalability in diverse applications."
+},
+{
+"id": "265f2953-f37c-4c0b-8f61-e2a15118291e",
+"answer_text": "Data versioning",
+"explanation_text": "Data versioning is the process of systematically maintaining and managing different versions of datasets, improving traceability, reproducibility, and collaboration in data-related projects."
+},
+{
+"id": "c8533619-431e-48cf-b7b3-5ff5f65263d1",
+"answer_text": "Automatic hyperparameter tuning",
+"explanation_text": "Automatic hyperparameter tuning is an optimized process that automatically adjusts machine learning models by exploring and evaluating different hyperparameter combinations to achieve the best performance."
+},
+{
+"id": "3a85d010-e8c4-4a29-a3dd-330376caf110",
+"answer_text": "Orchestrating data pipelines",
+"explanation_text": "Orchestrating data pipelines is the automated planning, coordination, and execution of various steps within a data or machine learning pipeline to ensure a streamlined and efficient process."
+},
+{
+"id": "3bb6617b-88f2-48a3-b235-381e8edfd3d9",
+"answer_text": "AutoML",
+"explanation_text": "AutoML, or Automated Machine Learning, is an approach that automatically builds and optimizes machine learning models with minimal human intervention, with the aim of simplifying the modeling process and accelerating the development of effective models."
+},
+{
+"id": "3e6a8487-1793-4062-aee3-271c6e435818",
+"answer_text": "Publishing and putting models into production",
+"explanation_text": "Publishing machine learning models is the process of making trained models available and accessible for use in production environments or by external users."
+}
+],
+"explanation_text": "This question aims to gain insight into the specific machine learning functionalities that the user wishes to use within the data platform."
+},
+{
+"id": "c8775160-e498-4292-a464-b45e222f5aa7",
+"question_text": "How many data specialists should use the platform?",
+"type": "single",
+"answers": [
+{
+"id": "3e29d8d1-aef4-45a9-9728-606880731d87",
+"answer_text": "1",
+"explanation_text": "If your organization has only one data scientist or AI/data engineer, the choice of data platform may be less important."
+},
+{
+"id": "7ca2debe-b701-4e89-958d-6d3cff385de0",
+"answer_text": "2-5",
+"explanation_text": "For a team size of 2-5 data scientists or AI/data engineers, the choice of data platform is more important and should take into account collaboration requirements and security aspects."
+},
+{
+"id": "6687720c-ef4d-4663-8e79-a98694bb10d9",
+"answer_text": "10+",
+"explanation_text": "With a team size of 10 or more data scientists or AI/data engineers, the choice of data platform becomes more important, where scalability, collaboration, security and other advanced functionalities are crucial for efficient and effective data infrastructure."
+}
+],
+"explanation_text": "This question aims to gain insight into the number of data scientists and AI/data engineers who will use the platform, with a particular focus on aspects such as security, collaboration and other functionalities."
+},
+{
+"id": "37931900-6d9a-4e56-ac8e-96ea11c970fb",
+"question_text": "Is the data labeled, meaning it is identified or characterized with specific categories or attributes?",
+"type": "single",
+"answers": [
+{
+"id": "f96feb5c-7f24-436e-aa35-70a170bccfd9",
+"answer_text": "Yes, the data is labeled",
+"explanation_text": "Fully annotated data is essential for effective machine learning models and analytics."
+},
+{
+"id": "629c3eda-64d2-4768-a26d-e5a901c4e170",
+"answer_text": "No, the data still needs to be labeled",
+"explanation_text": "If your data still needs to be labeled, it is recommended to use an annotation tool."
+},
+{
+"id": "6c468e8d-a48b-4e5b-ba9c-9042d82d6ff9",
+"answer_text": "I don't know if my data is of good quality",
+"explanation_text": "If you do not know whether your data is properly annotated, it may be advisable to perform a thorough evaluation, preferably using annotation tools or expertise, to verify the quality of the labels before choosing a data platform that depends on accurate annotations."
+}
+],
+"explanation_text": "Labels are essential for machine learning algorithms to recognize patterns and perform tasks such as classification or prediction."
+}
+]
+}

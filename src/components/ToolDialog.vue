@@ -80,8 +80,7 @@
                 !props.tool.clashes.find((e) => e.hasOwnProperty('matches'))
               "
             >
-              Er zijn geen clashes gevonden, deze tool voldoet voor 100% aan je
-              aangegeven eisen!
+              {{$t('tool.no_clashes_found')}}
             </div>
             <div v-else>
               <match-item
@@ -107,7 +106,7 @@
                 !props.tool.matches.find((e) => e.hasOwnProperty('matches'))
               "
             >
-              Er zijn geen matches gevonden!
+              {{$t('tool.no_matches_found')}}
             </div>
             <div v-else>
               <match-item
@@ -136,6 +135,7 @@ import { useQuasar } from "quasar";
 import { useAnswerStore } from "../stores/answerStore";
 
 import MatchItem from "./MatchItem.vue";
+import { useI18n } from 'vue-i18n'
 export default defineComponent({
   name: "ToolDialog",
   props: ["modelValue", "tool", "answers"],
@@ -143,6 +143,7 @@ export default defineComponent({
   components: { MatchItem },
   setup(props, { emit }) {
     const q = useQuasar();
+    const { t } = useI18n()
     const answerStore = useAnswerStore();
     const tools = ref(answerStore.tools);
     const ScrollToMe = ref();
@@ -177,6 +178,7 @@ export default defineComponent({
 
     return {
       props,
+      t,
       getImgUrlLarge,
       q,
       getImgUrlSmall,

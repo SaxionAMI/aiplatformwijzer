@@ -4,7 +4,7 @@
       <!-- <transition appear enter-active-class="animated fadeIn delay-1s"> -->
       <div class="flex">
         <div class="text-h3 text-weight-bolder text-primary">
-          Ranglijst -
+          {{$t('results.ranking.title')}} -
 
           <span class="text-weight-bolder">
             {{
@@ -18,9 +18,7 @@
           <div style="font-size: small">{{ id }}</div>
         </div>
       </div>
-      Hier ziet u een overzicht met de resultaten. <b>Klik</b> op een platform
-      om te zien in welke aspecten het matcht of clasht met uw gegeven
-      antwoorden.
+      <span v-html="$t('results.ranking.explanation')"/>
       <div class="row q-col-gutter-md items-center q-my-md">
         <tool-item
           :style="{ transitionDelay: index * delay + 'ms' }"
@@ -35,7 +33,7 @@
         />
       </div>
       <div class="text-h3 text-weight-bolder text-primary q-my-md">
-        Nakijk grafiek
+        {{$t('results.ranking.graph')}}
       </div>
       <q-card class="card q-my-md">
         <q-card-section>
@@ -71,7 +69,7 @@ import { defineComponent, ref, computed, onMounted } from "vue";
 import { useRouter, useRoute } from "vue-router";
 import { useAnswerStore } from "../stores/answerStore";
 import ToolDialog from "src/components/ToolDialog.vue";
-
+import {useI18n} from "vue-i18n";
 const columns = [
   {
     name: "name",
@@ -376,6 +374,7 @@ export default defineComponent({
       },
     ]);
     const router = useRouter();
+    const { t } = useI18n()
     const route = useRoute();
     const answerStore = useAnswerStore();
     let result = answerStore.results[answerStore.results.length - 1];
@@ -557,6 +556,7 @@ export default defineComponent({
       chosenTool,
       showDialog,
       openDialog,
+      t,
       sortedTools,
       rows,
       columns,

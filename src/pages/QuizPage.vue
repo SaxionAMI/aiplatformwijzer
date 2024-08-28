@@ -25,10 +25,11 @@
         track-color="white"
         ><div class="absolute-full flex flex-center">
           <div class="text-h4 text-white">
-            {{ `${currentQuestion + 1}/${questions.length} vragen` }}
+            {{ `${currentQuestion + 1}/${questions.length} ${$t('quiz.questions')}` }}
           </div>
         </div></q-linear-progress
       >
+<!--      <locale-switcher/>-->
     </q-header>
     <!-- <div id="space" style="height: 6h"></div> -->
     <question-item
@@ -41,7 +42,7 @@
     <q-footer elevated bordered class="bg-white text-black" v-if="!isMobile">
       <q-btn
         no-caps
-        :label="'Meer info per tool'"
+        :label="$t('quiz.btn.more_info')"
         flat
         v-if="!expanded"
         :icon-right="'keyboard_arrow_up'"
@@ -82,9 +83,11 @@ import { useRouter, useRoute } from "vue-router";
 import { useAnswerStore } from "../stores/answerStore";
 import ToolQuestionItem from "src/components/ToolQuestionItem.vue";
 import { uuid } from "vue-uuid";
+import { useI18n } from 'vue-i18n'
 export default defineComponent({
   name: "QuizPage",
   setup() {
+    const { t } = useI18n()
     const q = useQuasar();
     const uuidGenerator = uuid;
     const router = useRouter();
@@ -95,6 +98,8 @@ export default defineComponent({
     const currentQuestion = ref(answerStore.answers.length===0?0: answerStore.answers.length-1);
     const isMobile = computed(() => q.platform.is.mobile);
     const route = useRoute();
+
+
 
     if (route.query.hasOwnProperty("question_id")) {
       currentQuestion.value = parseInt(route.query.question_id);
@@ -264,6 +269,7 @@ export default defineComponent({
       updateAnswer,
       previousQuestion,
       questions,
+      t,
       expanded,
       goToRoute,
       progress,
@@ -273,6 +279,6 @@ export default defineComponent({
       currentQuestion,
     };
   },
-  components: { QuestionItem, ToolQuestionItem },
+  components: {QuestionItem, ToolQuestionItem },
 });
 </script>

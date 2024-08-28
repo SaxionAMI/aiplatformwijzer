@@ -35,7 +35,7 @@
       </div>
     </div>
     <div v-if="fullscreen">
-      <b>Vraag uitleg:</b> {{ props.question.explanation_text }}
+      <b>{{$t('question.explanation')}}:</b> {{ props.question.explanation_text }}
     </div>
     <div class=" col-md-6 col-sm-10 col-xs-12 self-start">
       <q-card class="row q-pa-lg-lg q-pa-md-md q-pa-xs-xs q-pa-sm-sm card">
@@ -80,8 +80,8 @@
           <b>
             {{
               props.question.type === "single"
-                ? "Selecteer één antwoord"
-                : "Meerdere antwoorden mogelijk"
+                ? $t("question.single_question_help")
+                : $t("question.multiple_question_help")
             }}
           </b>
         </div>
@@ -102,7 +102,7 @@
           class="float-right"
           push
           rounded
-          label="Volgende vraag"
+          :label="$t('question.btn.next')"
           @click="submitAnswer"
         />
       </div>
@@ -116,6 +116,7 @@ import { Notify, useQuasar } from "quasar";
 import { useAnswerStore } from "../stores/answerStore";
 import AnswerItem from "./AnswerItem.vue";
 import QuestionToolIcon from "./QuestionToolIcon.vue";
+import { useI18n } from 'vue-i18n'
 export default defineComponent({
   name: "QuestionItem",
   props: {
@@ -128,6 +129,7 @@ export default defineComponent({
   },
   emits: ["submitAnswer", "previousQuestion", "updateAnswer"],
   setup(props, { emit }) {
+    const { t } = useI18n()
     const answerStore = useAnswerStore();
     const q = useQuasar();
     const isMobile = computed(() => q.platform.is.mobile);
@@ -195,7 +197,7 @@ export default defineComponent({
       } else {
         Notify.create({
           position: "center",
-          message: "Selecteer minimaal 1 antwoord!",
+          message: t('question.no_selected_answer_error'),
           color: "negative",
           timeout: 200,
         });
@@ -235,6 +237,7 @@ export default defineComponent({
       submitAnswer,
       unselectAnswer,
       fullscreen,
+      t,
       answerStore,
       q,
       previousQuestion,
