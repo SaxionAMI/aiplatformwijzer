@@ -18,7 +18,7 @@
           <div style="font-size: small">{{ id }}</div>
         </div>
       </div>
-      <span v-html="$t('results.ranking.explanation')"/>
+      <span >$t('results.ranking.explanation')</span>
       <div class="row q-col-gutter-md items-center q-my-md">
         <tool-item
           :style="{ transitionDelay: index * delay + 'ms' }"

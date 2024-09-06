@@ -47,15 +47,15 @@ export default {
   tool: {
     no_matches_found: "Er zijn geen matches gevonden!",
     no_clashes_found: "Er zijn geen clashes gevonden, deze tool voldoet voor 100% aan je aangegeven eisen!",
-    clashes_found: "De volgende <span class=\"text-negative text-weight-bold\">clashes</span> zijn gevonden:",
-    matches_found: "De volgende <span class=\"text-positive text-weight-bold\">matches</span> zijn gevonden:",
-    select_info: "<b><i>Selecteer</i></b> een vraag om een beschrijving per tool te kunnen zien",
+    clashes_found: "De volgende clashes zijn gevonden:",
+    matches_found: "De volgende matches zijn gevonden:",
+    select_info: "Selecteer een vraag om een beschrijving per tool te kunnen zien",
     score: "tussenstand"
   },
   results: {
     ranking: {
       title: "Ranglijst",
-      explanation: "Hier ziet u een overzicht met de resultaten. Klik</b> op een platform om te zien in welke aspecten het matcht of clasht met uw gegeven antwoorden.",
+      explanation: "Hier ziet u een overzicht met de resultaten. Klik op een platform om te zien in welke aspecten het matcht of clasht met uw gegeven antwoorden.",
       graph: "Nakijk grafiek"
     }
   }

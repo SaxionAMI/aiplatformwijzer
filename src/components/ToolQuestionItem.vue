@@ -31,7 +31,7 @@
             </div>
 
             <div v-if="currentClashes">
-              <span v-html="$t('tool.clashes_found')"/>
+              {{$t('tool.clashes_found')}}
 
               <ul>
                 <li :key="index" v-for="(clash, index) in currentClashes">
@@ -40,18 +40,17 @@
               </ul>
             </div>
             <div v-if="currentMatches">
-              <span v-html="$t('tool.matches_found')"/>
-
+{{$t('tool.matches_found')}}
               <ul>
                 <li :key="index" v-for="(match, index) in currentMatches">
-                  {{ match.explanation }}
+                  <span v-html="match.explanation"/>
                 </li>
               </ul>
             </div>
             <div v-if="!currentMatches && !currentClashes">
-              <span v-html="$t('tool.select_info')"/>
+             {{$t('tool.select_info')}}
             </div>
-            <b> {$t('tool.matches_found'){}}</b>
+            <b> {{$t('tool.matches_found')}}</b>
             <div>
               Clashes:
               {{ props.tool.numberOfClaches ? props.tool.numberOfClaches : 0 }}

@@ -44,18 +44,18 @@ export default {
   answer: {
     explanation: "Answer explanation"
   },
-  tools: {
+  tool: {
     no_matches_found: "No matches were found!",
     no_clashes_found: "No clashes were found, this tool meets your stated requirements 100%!",
-    clashes_found: "The following <span class=\"text-negative text-weight-bold\">clashes</span> were found:",
-    matches_found: "The following <span class=\"text-positive text-weight-bold\">matches</span> were found:",
-    select_info: "<b><i>Select</i></b> a question to see a description per tool",
+    clashes_found: "The following clashes were found:",
+    matches_found: "The following matches were found:",
+    select_info: "Select a question to see a description per tool",
     score: "intermediate standings"
   },
   results: {
     ranking: {
       title: "Ranking",
-      explanation: "Here you will see an overview of the results. Click</b>on a platform to see in which aspects it matches or clashes with your given answers.",
+      explanation: "Here you will see an overview of the results. Click on a platform to see in which aspects it matches or clashes with your given answers.",
       graph: "Review graph"
     }
   }
