@@ -56,7 +56,10 @@ export default {
     ranking: {
       title: "Ranglijst",
       explanation: "Hier ziet u een overzicht met de resultaten. Klik op een platform om te zien in welke aspecten het matcht of clasht met uw gegeven antwoorden.",
-      graph: "Nakijk grafiek"
+      graph: "Nakijk grafiek",
+      btn: {
+        redo: "Try the quiz again"
+      }
     }
   }
 }

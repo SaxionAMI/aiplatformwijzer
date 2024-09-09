@@ -18,7 +18,7 @@
           <div style="font-size: small">{{ id }}</div>
         </div>
       </div>
-      <span >$t('results.ranking.explanation')</span>
+      <span >{{$t('results.ranking.explanation')}}</span>
       <div class="row q-col-gutter-md items-center q-my-md">
         <tool-item
           :style="{ transitionDelay: index * delay + 'ms' }"
@@ -53,7 +53,7 @@
         <q-btn
           no-caps
           @click="router.push({ name: 'index' })"
-          label="Doe de quiz opnieuw"
+          :label="t('results.ranking.btn.redo')"
           rounded
           push
           color="accent"

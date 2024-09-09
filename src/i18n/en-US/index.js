@@ -56,7 +56,10 @@ export default {
     ranking: {
       title: "Ranking",
       explanation: "Here you will see an overview of the results. Click on a platform to see in which aspects it matches or clashes with your given answers.",
-      graph: "Review graph"
+      graph: "Review graph",
+      btn: {
+        redo: "Try the quiz again"
+      }
     }
   }
 }
