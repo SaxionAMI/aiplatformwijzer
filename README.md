@@ -1,14 +1,13 @@
-# AI-platformwijzer
+# AI Platform Guide
 
-Op zoek naar dé datapipeline tool voor uw organisatie?
-- De dataplatformwijzer weet raad.
-- Doorloop een aantal vragen.
-- Een gedetailleerde aanbeveling wordt gegenereerd.
-- Rekening houdend met platformen als Amazon Sagemaker, Databrikcs, Microsoft Azure Machine learning en andere relevante platforms.
+Looking for the ideal data pipeline tool for your organization?
+- The data platform guide can help.
+- Go through a series of questions.
+- A detailed recommendation will be generated.
+- Takes into account platforms like Amazon SageMaker, Databricks, Microsoft Azure Machine Learning, and other relevant platforms.
 
-
-# Zelf installeren?
-De AI-platformwijzer maakt gebruik van Quasar. Volg de stappen op de website om de website lokaal te draaien: https://quasar.dev/start/quick-start/
+# Install it yourself?
+The AI platform guide uses Quasar. Follow the steps on the website to run the site locally: [https://quasar.dev/start/quick-start/](https://quasar.dev/start/quick-start/)
 
 ## Install the dependencies
 ```bash
@@ -22,14 +21,12 @@ npm install
 quasar dev
 ```
 
-
 ### Lint the files
 ```bash
 yarn lint
 # or
 npm run lint
 ```
-
 
 ### Format the files
 ```bash
