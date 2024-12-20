@@ -3,7 +3,7 @@
     {
       "id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
       "question_text": "Bent u actief op een van de volgende cloudplatforms?",
-      "type": "single",
+      "type": "multi",
       "answers": [
         {
           "id": "963aaa51-8a46-4d4e-9808-d25ea810560c",

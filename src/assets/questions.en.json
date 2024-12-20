@@ -3,7 +3,7 @@
 {
 "id": "4ca72731-751f-4402-bcdc-a98bf89cf79d",
 "question_text": "Are you active on any of the following cloud platforms?",
-"type": "single",
+"type": "multi",
 "answers": [
 {
 "id": "963aaa51-8a46-4d4e-9808-d25ea810560c",
